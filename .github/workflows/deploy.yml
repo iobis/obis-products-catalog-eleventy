@@ -46,10 +46,7 @@ jobs:
         run: |
           npm ci
           pip install pyyaml
-      
-      - name: Fetch OBIS nodes
-        run: python scripts/fetch_obis_nodes.py
-      
+     
       - name: Harvest product metadata
         run: python scripts/harvest.py
       
