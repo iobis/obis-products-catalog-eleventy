@@ -50,9 +50,6 @@ jobs:
       - name: Fetch OBIS nodes
         run: python scripts/fetch_obis_nodes.py
       
-      - name: Fetch OBIS institutes
-        run: python scripts/fetch_obis_institutes.py
-      
       - name: Harvest product metadata
         run: python scripts/harvest.py
       
