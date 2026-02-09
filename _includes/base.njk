@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - OBIS Products Catalog</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <link rel="stylesheet" href="/css/custom.css">
-    <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+    <link rel="stylesheet" href="{{ '/css/custom.css' | url }}">
+    <link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | url }}">
 </head>
 <body>
     <nav class="container-fluid">
         <ul>
-            <li><strong><a href="/">OBIS Products Catalog</a></strong></li>
+            <li><strong><a href="{{ '/' | url }}">OBIS Products Catalog</a></strong></li>
         </ul>
         <ul>
-            <li><a href="/">Browse</a></li>
-            <li><a href="/nodes/">Nodes</a></li>
-            <li><a href="/institutions/">Institutions</a></li>
+            <li><a href="{{ '/' | url }}">Browse</a></li>
+            <li><a href="{{ '/nodes/' | url }}">Nodes</a></li>
+            <li><a href="{{ '/institutions/' | url }}">Institutions</a></li>
         </ul>
     </nav>
     
@@ -31,7 +31,7 @@
         </small>
     </footer>
     
-    <script src="/pagefind/pagefind-ui.js"></script>
-    <script src="/js/filter.js"></script>
+    <script src="{{ '/pagefind/pagefind-ui.js' | url }}"></script>
+    <script src="{{ '/js/filter.js' | url }}"></script>
 </body>
 </html>
