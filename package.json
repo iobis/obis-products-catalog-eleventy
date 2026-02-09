@@ -2,7 +2,7 @@
   "name": "obis-products-catalog",
   "version": "1.0.0",
   "scripts": {
-    "build": "eleventy && pagefind --site _site",
+    "build": "eleventy && npx pagefind --site _site",
     "serve": "eleventy --serve",
     "serve:pagefind": "eleventy && pagefind --site _site && npx serve _site",
     "harvest": "python scripts/harvest.py"
