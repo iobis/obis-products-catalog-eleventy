@@ -270,12 +270,12 @@
           "url": "https://ipt.nlbif.nl/rss.do"
         },
         {
-          "id": "4123c44f-a205-4f68-8d2e-b44d654a4e4e",
-          "url": "https://www.gbif.es/ipt/rss.do"
-        },
-        {
           "id": "b6052f6d-1c66-43a5-93ff-b40beba3bd0d",
           "url": "https://ipt.vliz.be/ieo/rss.do"
+        },
+        {
+          "id": "4123c44f-a205-4f68-8d2e-b44d654a4e4e",
+          "url": "https://www.gbif.es/ipt/rss.do"
         },
         {
           "id": "4ff77cc7-c0a9-455d-af04-1998dcba2127",
@@ -1342,6 +1342,14 @@
           "url": "https://ichthyology.specify.ku.edu/export/rss/"
         },
         {
+          "id": "8112d75b-7e78-4641-9e09-9a2cc7db7375",
+          "url": "https://ipt-obis.gbif.us/rss.do"
+        },
+        {
+          "id": "2ba26b79-d120-4c65-8a20-ad4c88637120",
+          "url": "https://ipt.floridamuseum.ufl.edu/ipt/rss.do"
+        },
+        {
           "id": "82a07ead-4a56-4e85-9331-d4c2743bfa3e",
           "url": "https://fisheye.specifycloud.org/export/rss/"
         },
@@ -1352,14 +1360,6 @@
         {
           "id": "11f7ef88-79a5-40eb-99ff-6c979044dcdb",
           "url": "http://ipt.nhm.ku.edu:8080/ipt/rss.do"
-        },
-        {
-          "id": "8112d75b-7e78-4641-9e09-9a2cc7db7375",
-          "url": "https://ipt-obis.gbif.us/rss.do"
-        },
-        {
-          "id": "2ba26b79-d120-4c65-8a20-ad4c88637120",
-          "url": "https://ipt.floridamuseum.ufl.edu/ipt/rss.do"
         },
         {
           "id": "efb15359-a72b-48dd-8195-065ea832bad5",
