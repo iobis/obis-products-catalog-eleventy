@@ -183,3 +183,18 @@ header h1 {
 .search-help-content ul {
     margin: 0.5rem 0;
 }
+
+/* DOI search bar */
+.doi-search {
+    margin: 2rem 0;
+}
+
+.doi-search input {
+    width: 100%;
+    max-width: 600px;
+}
+
+#doi-results {
+    margin-top: 0.5rem;
+    color: var(--muted-color);
+}

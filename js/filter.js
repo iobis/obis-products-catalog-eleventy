@@ -178,3 +178,81 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
+// Client-side search and filter for OBIS Products Catalog
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize Pagefind search
+    if (document.getElementById('pagefind-search')) {
+        new PagefindUI({ 
+            element: "#pagefind-search",
+            showSubResults: true,
+            showImages: false,
+            excerptLength: 30
+        });
+    }
+    
+    const productCards = document.querySelectorAll('.product-card');
+    const nodeFilters = document.querySelectorAll('.node-filter');
+    const institutionFilters = document.querySelectorAll('.institution-filter');
+    const resultsCount = document.getElementById('results-count');
+    const categoryFilters = document.querySelectorAll('.category-filter');
+
+    if (!productCards.length) return;
+    
+    const totalProducts = productCards.length;
+    
+    // Filter state
+    const filterState = {
+        nodes: {
+            include: [],
+            exclude: []
+        },
+        institutions: {
+            include: [],
+            exclude: []
+        },
+        categories: {
+            include: [],
+            exclude: []
+        }
+    };
+    
+    // DOI search
+    const doiSearchInput = document.getElementById('doi-search');
+    const doiResults = document.getElementById('doi-results');
+    
+    if (doiSearchInput) {
+        doiSearchInput.addEventListener('input', function(e) {
+            const searchTerm = e.target.value.trim().toLowerCase();
+            
+            if (!searchTerm) {
+                // Reset - show all products based on existing filters
+                productCards.forEach(card => {
+                    if (!card.classList.contains('hidden')) {
+                        card.style.display = '';
+                    }
+                });
+                if (doiResults) doiResults.innerHTML = '';
+                return;
+            }
+            
+            let matchCount = 0;
+            productCards.forEach(card => {
+                // Look for DOI in the card
+                const doiLink = card.querySelector('a[href*="doi.org"]');
+                if (doiLink && doiLink.href.toLowerCase().includes(searchTerm)) {
+                    card.style.display = '';
+                    matchCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            
+            if (doiResults) {
+                doiResults.innerHTML = `<small>${matchCount} product(s) matching "${searchTerm}"</small>`;
+            }
+        });
+    }
+    
+}); // End of DOMContentLoaded
