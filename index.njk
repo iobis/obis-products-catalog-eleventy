@@ -98,7 +98,7 @@ permalink: /
                  data-nodes="{% if product.obis_nodes %}{% for node in product.obis_nodes %}{{ node.id }}{% if not loop.last %},{% endif %}{% endfor %}{% endif %}"
                  data-institutions="{% if product.institutions %}{% for inst in product.institutions %}{{ inst.id }}{% if not loop.last %},{% endif %}{% endfor %}{% endif %}">
             <header>
-                <h3><a href="{{ product.url }}">{{ product.name }}</a></h3>
+                <h3><a href="{{ product.url | url }}">{{ product.name }}</a></h3>
             </header>
             
             {% if product.description %}
