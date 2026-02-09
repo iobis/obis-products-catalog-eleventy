@@ -1,0 +1,97 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.11464531",
+  "@type": "https://schema.org/PresentationDigitalDocument",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0003-4897-1669",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/02z5nhe81",
+          "@type": "Organization",
+          "name": "National Oceanic and Atmospheric Administration"
+        }
+      ],
+      "familyName": "Biddle",
+      "givenName": "Mathew",
+      "name": "Biddle, Mathew"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7418-1244",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/035a68863",
+          "@type": "Organization",
+          "name": "United States Geological Survey"
+        }
+      ],
+      "familyName": "Formel",
+      "givenName": "Stephen",
+      "name": "Formel, Stephen"
+    }
+  ],
+  "contentSize": "3.21 MB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-4897-1669",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/02z5nhe81",
+          "@type": "Organization",
+          "name": "National Oceanic and Atmospheric Administration"
+        }
+      ],
+      "familyName": "Biddle",
+      "givenName": "Mathew",
+      "name": "Biddle, Mathew"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7418-1244",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/035a68863",
+          "@type": "Organization",
+          "name": "United States Geological Survey"
+        }
+      ],
+      "familyName": "Formel",
+      "givenName": "Stephen",
+      "name": "Formel, Stephen"
+    }
+  ],
+  "dateCreated": "2024-06-04T03:23:53.417158+00:00",
+  "dateModified": "2024-06-04T03:23:54.350133+00:00",
+  "datePublished": "2024-06-04",
+  "description": "<p>The Ocean Biodiversity Information System (OBIS) is an international initiative for open biodiversity science. Although OBIS primarily known for their data aggregation platforms, OBIS represents vibrant communities who are very engaged in developing the necessary standards and practices to make biodiversity observations FAIR, regardless of the data type. Matt will give an overview of OBIS, including context for how it relates to the United States. He will discuss the benefits of using the ready-made standards and platforms for publishing and share the resources that are available for learning how to publish. There will be a special focus on publishing metabarcoding/eDNA data.</p>",
+  "identifier": "https://doi.org/10.5281/zenodo.11464531",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "OBIS: Incorporation of eDNA data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "3.21 MB",
+  "temporal": [
+    "2024-06-03"
+  ],
+  "url": "https://zenodo.org/records/11464531",
+  "obis_nodes": [
+    {
+      "id": "b7c47783-a020-4173-b390-7b57c4fa1426"
+    }
+  ],
+  "institutions": [
+    {
+      "id": 12751
+    }
+  ],
+  "zenodo_id": "10_5281_zenodo_11464531",
+  "publication_date": "2024-06-04",
+  "category": [
+    "https://schema.org/PresentationDigitalDocument"
+  ]
+}

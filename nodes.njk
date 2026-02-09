@@ -1,0 +1,68 @@
+---
+pagination:
+  data: collections.byNode
+  size: 1
+  alias: node
+permalink: "/nodes/{{ node.id }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ node.name }}"
+---
+
+<h1>{{ node.name }}</h1>
+
+{% if node.description %}
+<p class="lead">{{ node.description }}</p>
+{% endif %}
+
+<section class="node-metadata">
+  {% if node.url and node.url.length > 0 %}
+  <p><strong>Website:</strong> <a href="{{ node.url[0] }}" target="_blank">{{ node.url[0] }}</a></p>
+  {% endif %}
+  
+  {% if node.type %}
+  <p><strong>Type:</strong> {{ node.type }}</p>
+  {% endif %}
+  
+  {% if node.contacts and node.contacts.length > 0 %}
+  <details>
+    <summary>Contacts</summary>
+    <ul>
+      {% for contact in node.contacts %}
+      <li>
+        {{ contact.givenname }} {{ contact.surname }}
+        {% if contact.email %} - <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</section>
+
+<p><strong>{{ node.products.length }}</strong> product{% if node.products.length != 1 %}s{% endif %}{% if node.products.length == 0 %} (No products added yet.){% endif %}</p>
+
+<section>
+  {% for product in node.products %}
+  <article class="product-card">
+    <header>
+      <h3><a href="{{ product.url }}">{{ product.name }}</a></h3>
+    </header>
+    
+    {% if product.description %}
+    <p>{{ product.description | striptags | truncate(200) }}</p>
+    {% endif %}
+    
+    <footer>
+      <small>
+        {% if product.author and product.author.length > 0 %}
+          {{ product.author[0].name }}{% if product.author.length > 1 %} et al.{% endif %}
+          {% if product.datePublished %} | {% endif %}
+        {% endif %}
+        {% if product.datePublished %}
+          {{ product.datePublished | readableDate }}
+        {% endif %}
+      </small>
+    </footer>
+  </article>
+  {% endfor %}
+</section>

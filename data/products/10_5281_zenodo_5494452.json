@@ -1,0 +1,151 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.5494452",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0002-0477-8878",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Friedrich-Alexander University Erlangen-Nürnberg"
+        }
+      ],
+      "familyName": "Eichenseer",
+      "givenName": "Kilian",
+      "name": "Eichenseer, Kilian"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5293-2430",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Plymouth"
+        }
+      ],
+      "familyName": "Balthasar",
+      "givenName": "Uwe",
+      "name": "Balthasar, Uwe"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6329-4139",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Plymouth"
+        }
+      ],
+      "familyName": "Smart",
+      "givenName": "Christopher W.",
+      "name": "Smart, Christopher W."
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1088-2014",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Friedrich-Alexander University Erlangen-Nürnberg"
+        }
+      ],
+      "familyName": "Kiessling",
+      "givenName": "Wolfgang",
+      "name": "Kiessling, Wolfgang"
+    }
+  ],
+  "contentSize": "334.14 MB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-0477-8878",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Friedrich-Alexander University Erlangen-Nürnberg"
+        }
+      ],
+      "familyName": "Eichenseer",
+      "givenName": "Kilian",
+      "name": "Eichenseer, Kilian"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5293-2430",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Plymouth"
+        }
+      ],
+      "familyName": "Balthasar",
+      "givenName": "Uwe",
+      "name": "Balthasar, Uwe"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6329-4139",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Plymouth"
+        }
+      ],
+      "familyName": "Smart",
+      "givenName": "Christopher W.",
+      "name": "Smart, Christopher W."
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1088-2014",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Friedrich-Alexander University Erlangen-Nürnberg"
+        }
+      ],
+      "familyName": "Kiessling",
+      "givenName": "Wolfgang",
+      "name": "Kiessling, Wolfgang"
+    }
+  ],
+  "dateCreated": "2021-09-09T08:43:58.817302+00:00",
+  "dateModified": "2024-10-01T11:45:01.448354+00:00",
+  "datePublished": "2021-09-09",
+  "description": "<p>This dataset contains the necessary data and code to reproduce the analyses shown in the manuscript \"Temperature effects on the distribution of aragonitic and calcite-secreting epifaunal bivalves\".</p>\n<p>To prepare the OBIS data from the original download for the analysis, using R, it is necessary to 1. deposit the files in the \"data\" folder in the R working directory, 2. run the script \"worms_prepare.R\", 3. run the script \"obis_data_prepare.R\".</p>\n<p>To directly run the analyses with the cleaned data set, proceed from 1. with the R scripts corresponding to the figures shown in the manuscript.</p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/5494452/files/code.7z/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/5494452/files/data.7z/content",
+      "encodingFormat": "application/octet-stream"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.5494452",
+  "inLanguage": {
+    "@type": "Language",
+    "alternateName": "ang",
+    "name": "Old English (ca. 450-1100)"
+  },
+  "keywords": "skeletal mineralogy, bivalves, macroecology, Bayesian hierarchical regression, biogeography",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Temperature effects on the distribution of aragonitic and calcite-secreting epifaunal bivalves",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "334.14 MB",
+  "url": "https://zenodo.org/records/5494452",
+  "version": "1.0",
+  "zenodo_id": "10_5281_zenodo_5494452",
+  "publication_date": "2021-09-09",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

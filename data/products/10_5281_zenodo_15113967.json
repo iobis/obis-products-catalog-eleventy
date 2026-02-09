@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.15113967",
+  "@type": "https://schema.org/SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0003-4897-1669",
+      "@type": "Person",
+      "familyName": "Biddle",
+      "givenName": "Mathew",
+      "name": "Biddle, Mathew"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9284-8871",
+      "@type": "Person",
+      "familyName": "Brenskelle",
+      "givenName": "Laura",
+      "name": "Brenskelle, Laura"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4026-1390",
+      "@type": "Person",
+      "familyName": "Diorio",
+      "givenName": "Mimi",
+      "name": "Diorio, Mimi"
+    }
+  ],
+  "contentSize": "62.78 MB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-4897-1669",
+      "@type": "Person",
+      "familyName": "Biddle",
+      "givenName": "Mathew",
+      "name": "Biddle, Mathew"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9284-8871",
+      "@type": "Person",
+      "familyName": "Brenskelle",
+      "givenName": "Laura",
+      "name": "Brenskelle, Laura"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4026-1390",
+      "@type": "Person",
+      "familyName": "Diorio",
+      "givenName": "Mimi",
+      "name": "Diorio, Mimi"
+    }
+  ],
+  "dateCreated": "2025-03-31T13:26:19.056595+00:00",
+  "dateModified": "2025-03-31T13:26:19.222729+00:00",
+  "datePublished": "2025-03-31",
+  "description": "Notebooks and documentation about computing H3 biodiversity indicators.",
+  "identifier": "https://doi.org/10.5281/zenodo.15113967",
+  "keywords": "H3, biodiversity, OBIS, IOOS, NMS",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "name": "H3_indicators",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "62.78 MB",
+  "url": "https://zenodo.org/records/15113967",
+  "version": "v0.7",
+  "zenodo_id": "10_5281_zenodo_15113967",
+  "publication_date": "2025-03-31",
+  "category": [
+    "https://schema.org/SoftwareSourceCode"
+  ]
+}

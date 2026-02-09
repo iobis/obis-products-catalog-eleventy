@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.16791361",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@id": "https://orcid.org/0009-0003-1018-4456",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03b94tp07",
+          "@type": "Organization",
+          "name": "University of Auckland"
+        }
+      ],
+      "familyName": "li",
+      "givenName": "longyu",
+      "name": "li, longyu"
+    }
+  ],
+  "contentSize": "114.9 KB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0009-0003-1018-4456",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03b94tp07",
+          "@type": "Organization",
+          "name": "University of Auckland"
+        }
+      ],
+      "familyName": "li",
+      "givenName": "longyu",
+      "name": "li, longyu"
+    }
+  ],
+  "dateCreated": "2025-08-11T02:29:31.356856+00:00",
+  "dateModified": "2025-08-11T02:29:31.634516+00:00",
+  "datePublished": "2025-08-11",
+  "description": "<p>This dataset contains compiled body size (total length, weight) and maximum longevity data for marine fish species, along with their associated depth and latitudinal distribution ranges, used in the study <em>&ldquo;Depth, Latitude, and Lifespan: Exploring Allometric Scaling of Body Size and Maximum Longevity in Marine Fishes.&rdquo;</em> Data were sourced from FishBase, OBIS, and supplementary literature between March and July 2025.</p>\n<p>The dataset includes:</p>\n<ul>\n<li>\n<p><strong>Raw data</strong> extracted from public databases and literature</p>\n</li>\n<li>\n<p><strong>Cleaned dataset</strong> for statistical analysis</p>\n</li>\n<li>\n<p><strong>R scripts</strong> for data processing, model fitting, and figure generation</p>\n</li>\n<li>\n<p>Metadata describing species taxonomy, sampling coverage, and environmental parameters</p>\n</li>\n</ul>\n<p>All analyses were conducted in R (version 4.3), and the provided code reproduces all statistical results and figures in the manuscript. The dataset is shared to promote transparency and reproducibility, and may be reused for related studies on fish allometry, biogeography, and life history strategies.</p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/16791361/files/marine_fish_allometry_with_latitude.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/16791361/files/marine_fish_allometry_with_latitude_and_weight.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/16791361/files/异速生长.Rmd/content",
+      "encodingFormat": "application/octet-stream"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.16791361",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Depth, Latitude, and Lifespan: Dataset and R Code for Allometric Scaling Analysis in Marine Fishes",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "114.9 KB",
+  "url": "https://zenodo.org/records/16791361",
+  "zenodo_id": "10_5281_zenodo_16791361",
+  "publication_date": "2025-08-11",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

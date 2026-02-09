@@ -1,0 +1,170 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.zw3r228bh",
+  "name": "Biogeography of the world’s worst invasive species has spatially-biased knowledge gaps but is predictable",
+  "description": "The world’s “100 worst invasive species” were listed in 2000. The list is taxonomically diverse and often cited (typically for single-species studies), and its species are frequently reported in global biodiversity databases. We acted on the principle that these notorious species should be well-reported to help answer two questions about global biogeography of invasive species (i.e., not just their invaded ranges): (1) “how are data distributed globally?” and (2) “what predicts diversity?” We collected location data for each of the 100 species from multiple databases; 95 had sufficient data for analyses. For question (1), we mapped global species richness and cumulative occurrences since 2000 in (0.5 degree)2 grids. For question (2) we compared alternative regression models representing non-exclusive hypotheses for geography (i.e., spatial autocorrelation), sampling effort, climate, and anthropocentric effects.\nReported locations of the invasive species were spatially-biased, leaving la... Data Acquisition and Processing\nData were acquired from multiple data bases for the 100 invasive species in February 2022 using the spocc package in R (Chamberlain 2021). Data sources (in alphabetical order) included: the Atlas of Living Australia ('ALA'; https://www.ala.org.au); eBird (http://www.ebird.org/home; Sullivan et al. 2009); the Integrated Digitized Biocollections ('iDigBio'; https://www.idigbio.org; Matsunaga et al. 2013); the Global Biodiversity Information Facility (GBIF (https://www.gbif.org); Ocean 'Biogeographic' Information System ('OBIS'; https://portal.obis.org; Grassle and Stocks 1999); VertNet (https://vertnet.org; Constable et al. 2010); and the US Geological Survey’s Biodiversity Information Serving Our Nation ('BISON'; replaced December 2021 by GBIF). Several databases set limits to 100,000 initial point records (before cleaning, described below) when accessed using spocc. As a result, data for 19 species with &gt;100,000 point records (e.g., the European starli...  # Biogeography of the world’s worst invasive species has spatially-biased knowledge gaps but is predictable\n\n[https://doi.org/10.5061/dryad.zw3r228bh](https://doi.org/10.5061/dryad.zw3r228bh)\n\nThe provided datatoanalyze.csv file represents data further processed in provided R code to include spatial autocorrelation for each of species richness and cumulative occurences analyses.\n\n## Description of the data and file structure\n\nThe data file includes 59586 rows and 19 columns. NAs indicate missing data. Columns include:\n\n*   a row ID\n*   lon: longitude (decimal degrees) for the center of a 0.5 degree grid cell\n*   lat: latitude (decimal degrees) for the center of a 0.5 degree grid cell\n*   UN: the UN code for the country\n*   ISO3: the ISO3 code for the country\n*   NAME: the country name\n*   Country: may be identical to NAME, but some differences (e.g., The Republic of ...) occur via different data sources\n*   corrupt: the corruption score (range = -2.5 to 2.5) for the country, from the Wo... ",
+  "url": "http://datadryad.org/dataset/doi%253A10.5061%252Fdryad.zw3r228bh",
+  "contentUrl": [
+    "http://datadryad.org/downloads/file_stream/2963571",
+    "http://datadryad.org/downloads/file_stream/2963576",
+    "http://datadryad.org/downloads/file_stream/2963590"
+  ],
+  "identifier": "https://doi.org/10.5061/dryad.zw3r228bh",
+  "version": 6,
+  "isAccessibleForFree": true,
+  "keywords": [
+    "species richness",
+    "occurrences",
+    "Geography",
+    "Climate",
+    "Human population",
+    "Government Effectiveness"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "David Jenkins",
+      "givenName": "David",
+      "familyName": "Jenkins",
+      "sameAs": "http://orcid.org/0000-0002-0363-2260",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Hannah Bevan",
+      "givenName": "Hannah",
+      "familyName": "Bevan",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Wei Chen",
+      "givenName": "Wei",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Jacob Hart",
+      "givenName": "Jacob",
+      "familyName": "Hart",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Amanda Lindsay",
+      "givenName": "Amanda",
+      "familyName": "Lindsay",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Laura Macamo",
+      "givenName": "Laura",
+      "familyName": "Macamo",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Mekail Negash",
+      "givenName": "Mekail",
+      "familyName": "Negash",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Leo Ohyama",
+      "givenName": "Leo",
+      "familyName": "Ohyama",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/02y3ad647",
+        "name": "University of Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Alessandra Pandolfi",
+      "givenName": "Alessandra",
+      "familyName": "Pandolfi",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "George Zaragoza",
+      "givenName": "George",
+      "familyName": "Zaragoza",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      }
+    }
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/zip",
+    "contentUrl": "http://datadryad.org/api/v2/datasets/doi%253A10.5061%252Fdryad.zw3r228bh/download"
+  },
+  "temporalCoverage": [
+    "2024-02-05 19:13:54 UTC",
+    "2023-03-02 22:16:43 UTC",
+    "2024-02-29 00:00:00 UTC",
+    "2024-02-29 00:00:00 UTC"
+  ],
+  "spatialCoverage": [],
+  "citation": "http://doi.org/10.21425/f5fbg61681",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "license": "https://spdx.org/licenses/CC0-1.0.html"
+  },
+  "publisher": {
+    "@id": "https://datadryad.org",
+    "@type": "Organization",
+    "legalName": "Dryad Data Platform",
+    "name": "Dryad",
+    "url": "https://datadryad.org"
+  },
+  "provider": {
+    "@id": "https://datadryad.org"
+  },
+  "zenodo_id": "10_5061_dryad_zw3r228bh",
+  "publication_date": "",
+  "category": [
+    "Dataset"
+  ]
+}

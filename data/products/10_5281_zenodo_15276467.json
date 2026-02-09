@@ -1,0 +1,107 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.15276467",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03bea9k73",
+          "@type": "Organization",
+          "name": "Ollscoil na Gaillimhe – University of Galway"
+        }
+      ],
+      "familyName": "Ferreira",
+      "givenName": "Jessica Afonso",
+      "name": "Ferreira, Jessica Afonso"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5078-1410",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03bea9k73",
+          "@type": "Organization",
+          "name": "Ollscoil na Gaillimhe – University of Galway"
+        }
+      ],
+      "familyName": "Johnson",
+      "givenName": "Mark Peter",
+      "name": "Johnson, Mark Peter"
+    }
+  ],
+  "contentSize": "82.14 KB",
+  "creator": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03bea9k73",
+          "@type": "Organization",
+          "name": "Ollscoil na Gaillimhe – University of Galway"
+        }
+      ],
+      "familyName": "Ferreira",
+      "givenName": "Jessica Afonso",
+      "name": "Ferreira, Jessica Afonso"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5078-1410",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/03bea9k73",
+          "@type": "Organization",
+          "name": "Ollscoil na Gaillimhe – University of Galway"
+        }
+      ],
+      "familyName": "Johnson",
+      "givenName": "Mark Peter",
+      "name": "Johnson, Mark Peter"
+    }
+  ],
+  "dateCreated": "2025-04-24T15:16:49.765003+00:00",
+  "dateModified": "2025-04-24T15:16:49.926154+00:00",
+  "datePublished": "2025-04-24",
+  "description": "<p>Data file (.csv) of values of height and density for marine animal forest (MAF) forming species collected from the literature. Fields are for discrete observations:</p>\n<table>\n<tbody>\n<tr>\n<td>Species</td>\n<td>Species name</td>\n</tr>\n<tr>\n<td>Santavy</td>\n<td>\n<p>Morphology class using categories in&nbsp;</p>\n<p><span>Santavy DL, Lee A. Courtney, William S. Fisher, Robert L. Quarles, Stephen J. Jordan (2013) Estimating surface area of sponges and gorgonians as indicators of habitat availability on Caribbean coral reefs. Hydrobiologia 707:1-16. <span>https://doi.org/10.1007/s10750-012-1359-7</span><br></span></p>\n</td>\n</tr>\n<tr>\n<td>Height</td>\n<td>Mean colony height (cm)</td>\n</tr>\n<tr>\n<td>Density</td>\n<td>Mean colony density m-2</td>\n</tr>\n<tr>\n<td>Btemp</td>\n<td>Average bottom temperature for species based on OBIS records (K)</td>\n</tr>\n<tr>\n<td>Depth</td>\n<td>Average depth for species based on OBIS records (m)</td>\n</tr>\n<tr>\n<td>Phylum</td>\n<td>Taxonomy</td>\n</tr>\n<tr>\n<td>Class</td>\n<td>Taxonomy</td>\n</tr>\n<tr>\n<td>Order</td>\n<td>Taxonomy</td>\n</tr>\n<tr>\n<td>Family</td>\n<td>Taxonomy</td>\n</tr>\n<tr>\n<td>Genus</td>\n<td>Taxonomy</td>\n</tr>\n<tr>\n<td>Source</td>\n<td>Publication source for data</td>\n</tr>\n<tr>\n<td>Title</td>\n<td>Publication title</td>\n</tr>\n<tr>\n<td>DOI/link</td>\n<td>DOI for source data</td>\n</tr>\n</tbody>\n</table>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15276467/files/Height_density data_v2.csv/content",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "funding": [
+    {
+      "funder": {
+        "@id": "019w4f821",
+        "@type": "Organization",
+        "name": "European Union"
+      },
+      "name": "Ocean Citizen (101093910)",
+      "url": {
+        "identifier": "https://oceancitizen.eu/",
+        "scheme": "url"
+      }
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.15276467",
+  "keywords": "Marine biology",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Height and density data for marine animal forest forming species",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "82.14 KB",
+  "temporal": [
+    "2024-08-14"
+  ],
+  "url": "https://zenodo.org/records/15276467",
+  "zenodo_id": "10_5281_zenodo_15276467",
+  "publication_date": "2025-04-24",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

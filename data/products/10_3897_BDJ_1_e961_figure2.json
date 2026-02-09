@@ -1,0 +1,294 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://bdj.pensoft.net/article/961",
+  "@type": "ScholarlyArticle",
+  "url": "https://bdj.pensoft.net/article/961",
+  "headline": "MidMedPol: Polychaetes from midlittoral rocky shores in Greece and Italy (Mediterranean Sea)",
+  "name": "MidMedPol: Polychaetes from midlittoral rocky shores in Greece and Italy (Mediterranean Sea)",
+  "datePublished": "2013-09-16",
+  "dateCreated": "2013-07-26",
+  "dateModified": "2013-09-09",
+  "genre": "Data Paper",
+  "keywords": [
+    "Midlittoral zone",
+    "Polychaeta",
+    "rocky shores",
+    "Mediterranean Sea",
+    "biodiversity",
+    "intertidal",
+    "Italy",
+    "Greece",
+    "1984–2009"
+  ],
+  "abstract": "This paper describes a dataset of polychaetes (Annelida) from 14 midlittoral rocky shore sampling sites in Greece and Italy (Mediterranean Sea). The dataset combines the outcome of four different projects studying the hard substrate midlittoral zone in the Mediterranean between 1984 and 2009. Samples were collected by scraping and collecting the organisms from a framed area. The maximal sampling depth was 1.5 m. In total, 123 polychaete species were recorded, five of which are new records for the respective biogeographic sectors of the Mediterranean. The dataset contains 788 occurrence records, fully annotated with all required metadata. These data contribute to the knowledge of a previously very understudied regional habitat, since at present, comprehensive lists of the midlittoral communities in the Mediterranean are provided through only a few, paper-based, studies. This dataset is one of the first electronic data compilations of the Mediterranean midlittoral zone communities and certainly the most comprehensive of its kind, contributing to the ongoing efforts of the Ocean Biogeographic Information System (OBIS) which aims at filling the gaps in our current knowledge of the world's oceans. It is accessible at http://ipt.vliz.be/resource.do?r=mediterraneanpolychaetaintertidal.",
+  "image": "https://bdj.pensoft.net//img/7TVeXpoqfNYT89tyrm3ifrTeG9Wv8P676JSQp/H2pj9hhtoybol4GF7LEbj3fxHT5Fo8esHsscAWY5B4M0yaOEvaQaQWYYtOGtVl2A==.jpg",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.3897/BDJ.1.e961",
+    "value": "10.3897/BDJ.1.e961"
+  },
+  "sameAs": "https://doi.org/10.3897/BDJ.1.e961",
+  "contentLocation": {
+    "@type": "Place",
+    "geo": [
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 35.41461,
+        "longitude": 24.98816
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 35.26125,
+        "longitude": 25.75178
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 38.46432,
+        "longitude": 23.5917
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 38.46342,
+        "longitude": 23.59038
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 38.46302,
+        "longitude": 23.58922
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 40.46238,
+        "longitude": 22.85345
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 40.50664,
+        "longitude": 22.9078
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 40.59685,
+        "longitude": 22.94731
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 40.38238,
+        "longitude": 23.93882
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 40.07488,
+        "longitude": 23.79555
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 41.00581,
+        "longitude": 25.11961
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 38.05072,
+        "longitude": 12.99988
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 38.09721,
+        "longitude": 12.8027
+      },
+      {
+        "@type": "GeoCoordinates",
+        "latitude": 38.21174,
+        "longitude": 13.28836
+      }
+    ]
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "8.70",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock",
+    "description": "Order Printed version"
+  },
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "description": "\"Figure 1 Map of the sampling locations\"",
+      "contentUrl": "https://binary.pensoft.net/fig/4247/oo/file.jpg"
+    },
+    {
+      "@type": "ImageObject",
+      "description": "\"Figure 2 Temporal distribution of the number of polychaete records in the Mediterranean Sea present in the Ocean Biogeographic Information System (OBIS) and new contributions by the MidMedPol dataset. Only records from OBIS that contain information about the collection year were included, and data from before 1960 were omitted for reasons of clarity. a number of records for all depths, b number of records in the depth range of 0\\u20135m. Diagrams based on the data from Suppl. material 1.\"",
+      "contentUrl": "https://binary.pensoft.net/fig/4253/oo/file.jpg"
+    },
+    {
+      "@type": "ImageObject",
+      "description": "\"Figure 3 Overview of all steps leading to the final release of the dataset: 1 sampling, independently performed at the three different institutions (AUTH = Aristotle University of Thessaloniki, UNIPA = University of Palermo, HCMR = Hellenic Centre for Marine Research) 2 identification of polychaete specimens in the laboratory 3 data in paper-based format 4 digitisation 5 data in electronic format (spreadsheets) 6 integration of the three independent datasets into a standardised format, exclusion of records not identified to species level, retrieval of missing information, georeferencing of coordinates through Google Maps, standardisation of taxonomy against the World Register of Marine Species and recent literature, general quality control 7 export of data as a DarwinCore Archive 8 generation of dataset-level metadata 9 publication of the data as a data paper and through an IPT server 10 in the future, further dissemination of data by integration into other databases, personal downloads, archiving, etc.\"",
+      "contentUrl": "https://binary.pensoft.net/fig/4255/oo/file.jpg"
+    },
+    {
+      "@type": "ImageObject",
+      "description": "\"Figure 4 Distribution of species per family (abundance and percentage) for the most species-rich families in the MidMedPol dataset. Families with less than four species were combined in the category \\\"Others\\\". These are: Sabellariidae, Terebellidae (3 species each), Capitellidae (2 species), Amphinomidae, Aphroditidae, Chrysopetalidae, Dorvilleidae, Maldanidae, Oenonidae, Opheliidae, Orbiniidae, Pholoidae and Polynoidae (1 species each). Diagram based on the data from Suppl. material 2.\"",
+      "contentUrl": "https://binary.pensoft.net/fig/4250/oo/file.jpg"
+    },
+    {
+      "@type": "ImageObject",
+      "description": "\"Figure 5 Number of species, genera and families per sampling location. Diagram based on the data from Suppl. material 3\"",
+      "contentUrl": "https://binary.pensoft.net/fig/4251/oo/file.jpg"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://bdj.pensoft.net/article/961/download/pdf",
+      "description": "\n  MidMedPol: Polychaetes from midlittoral rocky shores in Greece and Italy (Mediterranean Sea)\n PDF download"
+    }
+  ],
+  "publisher": {
+    "@identifier": "https://oceanexpert.org/institution/24685",
+    "@type": "Organization",
+    "name": "Pensoft Publishers",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pensoft.net/new_images/pensoft_logo.svg"
+    }
+  },
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "citation": "http://www.ceab.csic.es/~dani/Lysidice.html. Accession date: 2013 8 30.Format via ReFinder-- select a citation style --Academy of management reviewAcm sigchi proceedingsAcm siggraphAcm sig proceedingsAcm sig proceedings long author listAcs chemical biologyAcs nanoActa materialiaActa naturaeActa neurochirurgicaActa ophthalmologicaActa palaeontologica polonicaActa pharmaceuticaActa polytechnicaActa societatis botanicorum poloniaeActa universitatis agriculturae sueciaeAdministrative science quarterlyAdvanced engineering materialsAdvanced functional materialsAdvanced materialsAdvances in complex systemsAfrican zoologyAging cellAidsAllergyAlternatives to animal experimentationAmerican anthropological associationAmerican association for cancer researchAmerican association of petroleum geologistsAmerican chemical societyAmerican chemical society with titlesAmerican chemical society with titles bracketsAmerican geophysical unionAmerican heart associationAmerican institute of aeronautics and astronauticsAmerican institute of physicsAmerican journal of agricultural economicsAmerican journal of archaeologyAmerican journal of botanyAmerican journal of epidemiologyAmerican journal of human geneticsAmerican journal of medical geneticsAmerican journal of neuroradiologyAmerican journal of orthodontics and dentofacial orthopedicsAmerican journal of physical anthropologyAmerican journal of political scienceAmerican journal of respiratory and critical care medicineAmerican medical associationAmerican medical association alphabeticalAmerican medical association no et alAmerican medical association no urlAmerican meteorological societyAmerican physics societyAmerican physiological societyAmerican phytopathological societyAmerican phytopathological society numericAmerican political science associationAmerican society for microbiologyAmerican society of civil engineersAmerican society of mechanical engineersAmerican sociological associationAmerican veterinary medical associationAnalytica chimica actaAnesthesia and analgesiaAnesthesiologyAngewandte chemieAnimal behaviourAnnalen des naturhistorischen museums in wienAnnalesAnnals of biomedical engineeringAnnals of botanyAnnals of neurologyAnnals of oncologyAnnals of the association of american geographersAnnual review of astronomy and astrophysicsAnnual review of medicineAnnual review of nuclear and particle scienceAnnual reviewsAnnual reviews alphabeticalAnnual reviews author dateAnnual reviews without titlesAntarctic scienceApaApa 5th editionApa annotated bibliographyApa cvApa no doi no issueApa trApplied spectroscopyAquatic conservationAquatic living resourcesArchives of physical medicine and rehabilitationArthritis and rheumatismArzneimitteltherapieAsa cssa sssaAsian studies reviewAssociacao brasileira de normas tecnicasAssociacao brasileira de normas tecnicas ipeaAssociacao brasileira de normas tecnicas noteAssociacao brasileira de normas tecnicas ufmg face fullAssociacao brasileira de normas tecnicas ufmg face initialsAssociacao brasileira de normas tecnicas ufprAssociacao nacional de pesquisa e ensino em transportesAssociation for computing machineryAusonius editionsAustral ecologyAustralian guide to legal citationAustralian journal of earth sciencesAustralian journal of grape and wine researchAustrian legalAvian diseasesAvian pathologyAviation space and environmental medicineBasic and applied ecologyBibtexBiochemical journalBiochemistryBiochimica et biophysica actaBioconjugate chemistryBioelectromagneticsBioessaysBioinformaticsBiological journal of the linnean societyBiological psychiatryBiological reviewsBiomed centralBioorganic and medicinal chemistry lettersBiophysical journalBioresource technologyBiotechniquesBiotechnology advancesBiotechnology and bioengineeringBiotropicaBloodBluebook2Bluebook inlineBluebook law reviewBmc bioinformaticsBmjBody and societyBoneBone marrow transplantationBoreal environment researchBrainBrazilian journal of botanyBriefings in bioinformaticsBritish ecological societyBritish journal of anaesthesiaBritish journal of cancerBritish journal of haematologyBritish journal of industrial relationsBritish journal of pharmacologyBritish journal of political scienceBuilding structureBulletin de la societe prehistorique francaiseBulletin of marine scienceByzantina symmeiktaCanadian journal of dietetic practice and researchCanadian journal of fisheries and aquatic sciencesCatholic biblical associationCellCell calciumCell numericCell researchCell transplantationCellular and molecular bioengineeringCellular reprogrammingCentaurusCerebral cortexChemical research in toxicologyChemical reviewsChemical sensesChestChicago annotated bibliographyChicago author dateChicago author date basqueChicago author date deChicago figuresChicago fullnote bibliographyChicago fullnote bibliography no ibidChicago library listChicago note bibliographyChicago note biblio no ibidChinese gb7714 1987 numericChinese gb7714 2005 numericCirculationCitiesClinical cancer researchClinical infectious diseasesClinical neurophysiologyClinical orthopaedics and related researchClinical otolaryngologyClinical pharmacology and therapeuticsClio medicaCns and neurological disorders drug targetsCold spring harbor laboratory pressComision economica para america latina y el caribeConservation biologyConservation lettersCopernicus publicationsCoral reefsCortexCouncil of science editorsCouncil of science editors author dateCritical care medicineCuadernos de filologia clasicaCulture medicine and psychiatryCurrent opinionCurrent protocolsCurrents in biblical researchCytometryDe buckDecision sciencesDendrochronologiaDeutsche gesellschaft fur psychologieDigestive and liver diseaseDin 1505 2Din 1505 2 alphanumericDin 1505 2 numericDin 1505 2 numeric alphabeticalDiploDisability and rehabilitationDrug development researchDrugs of todayEar and hearingEarly medieval europeEarth surface processes and landformsEcological entomologyEcologyEcology lettersEconomic commission for latin america and the caribbeanEconomie et statistiqueEcoscienceEcosystemsEl profesional de la informacionElsevier harvardElsevier harvard2Elsevier harvard without titlesElsevier vancouverElsevier without titlesElsevier with titlesElsevier with titles alphabeticalEmbo reportsEmerald harvardEmu austral ornithologyEnergy policyEntomologia experimentalis et applicataEntomological society of americaEnvironmental and engineering geoscienceEnvironmental and experimental botanyEnvironmental conservationEnvironmental health perspectivesEnvironmental microbiologyEnvironmental toxicology and chemistryEnvironment and planningEpidemiologie et sante animaleEquine veterinary educationErgoscienceEthics book reviewsEthnobiology and conservationEuropean cells and materialsEuropean journal of clinical microbiology and infectious diseasesEuropean journal of emergency medicineEuropean journal of immunologyEuropean journal of information systemsEuropean journal of neuroscienceEuropean journal of ophthalmologyEuropean journal of radiologyEuropean journal of soil scienceEuropean respiratory journalEuropean retail researchEuropean society of cardiologyEuropean union interinstitutional style guideEvolutionEvolution and developmentEvolutionary anthropologyExperimental eye researchEyeFachhochschule vorarlbergFederation of european microbiological societiesFertility and sterilityFirst mondayFish and fisheriesFlavour and fragrance journalFoerster geisteswissenschaftFold and rFree radical biology and medicineFrench1French2French3French4French politicsFreshwater biologyFrontiersFrontiers in opticsFungal ecologyFuture science groupG3GalliaGastroenterologyGeistes und kulturwissenschaften teilmannGenesesGeneticsGenome biology and evolutionGeoarchaeologyGeochimica et cosmochimica actaGeodermaGeografie sbornik cgsGeological magazineGeologyGeopoliticsGeorg august universitat gottingen institut fur ethnologie und ethnologische sammlungGlobal change biologyGlobal ecology and biogeographyGost r 7 0 5 2008Gost r 7 0 5 2008 numericHamburg school of food scienceHandHarvard1Harvard7deHarvard anglia ruskin universityHarvard cardiff universityHarvard coventry universityHarvard durham university business schoolHarvard european archaeologyHarvard gesellschaft fur bildung und forschung in europaHarvard imperial college londonHarvard institut fur praxisforschung deHarvard kings college londonHarvard leeds metropolitan universityHarvard limerickHarvard manchester business schoolHarvard north west universityHarvard oxford brookes universityHarvard oxford brookes university faculty of health and life sciencesHarvard staffordshire universityHarvard swinburne university of technologyHarvard the university of melbourneHarvard the university of northamptonHarvard the university of sheffield school of east asian studiesHarvard the university of sheffield town and regional planningHarvard university of abertay dundeeHarvard university of birminghamHarvard university of gloucestershireHarvard university of greenwichHarvard university of leedsHarvard university of sunderlandHarvard university of the west of englandHarvard university of west londonHarvard university of wolverhamptonHawaii international conference on system sciences proceedingsHealth services researchHeart rhythmHepatologyHeredityHistoire at politiqueHistoire et mesureHistory and theoryHistory of the human sciencesHochschule fur wirtschaft und recht berlinHong kong journal of radiologyHuman mutationHuman reproductionHuman reproduction updateHuman resource management journalHydrobiologiaHydrological sciences journalHypotheses in the life sciencesIces journal of marine scienceIeeeIeee with urlIica catieImmunological reviewsInflammatory bowel diseasesInfoclio deInfoclio fr nocapsInfoclio fr smallcapsInformation systems researchInsectes sociauxInstitute of physics harvardInstitute of physics numericInternational journal of audiologyInternational journal of cancerInternational journal of epidemiologyInternational journal of exercise scienceInternational journal of humanoid roboticsInternational journal of lexicographyInternational journal of occupational medicine and environmental healthInternational journal of production economicsInternational journal of radiation oncology biology physicsInternational journal of solids and structuresInternational journal of sports medicineInternational journal of wildland fireInternational labour organizationInternational microbiologyInternational organizationInternational pig veterinary society congress proceedingsInternational studies associationInternational union of crystallographyInter research science centerInter roInvestigative radiologyInvisuIrish historical studiesIso690 author date csIso690 author date enIso690 author date frIso690 author date fr no abstractIso690 full note skIso690 note csIso690 numeric brackets csIso690 numeric csIso690 numeric enIso690 numeric frIso690 numeric ltIso690 numeric skJahrbuch fur evangelikale theologieJavnost the publicJournalisticaJournal of alzheimers diseaseJournal of animal physiology and animal nutritionJournal of antimicrobial chemotherapyJournal of applied animal scienceJournal of applied ecologyJournal of applied philosophyJournal of archaeological researchJournal of atrial fibrillationJournal of basic microbiologyJournal of biogeographyJournal of biological chemistryJournal of biomedical materials research part aJournal of bone and mineral researchJournal of chemical ecologyJournal of chemistry and chemical engineeringJournal of clinical oncologyJournal of combinatoricsJournal of computational chemistryJournal of dental researchJournal of elections public opinion and partiesJournal of evolutionary biologyJournal of experimental botanyJournal of field ornithologyJournal of financeJournal of financial economicsJournal of fish diseasesJournal of food protectionJournal of forensic sciencesJournal of health economicsJournal of hearing scienceJournal of hepatologyJournal of hypertensionJournal of industrial ecologyJournal of infectious diseasesJournal of information technologyJournal of integrated omicsJournal of investigative dermatologyJournal of lipid researchJournal of mammalogyJournal of managementJournal of management information systemsJournal of marketingJournal of medical geneticsJournal of medical internet researchJournal of molecular biologyJournal of molecular endocrinologyJournal of morphologyJournal of neurophysiologyJournal of neurosurgeryJournal of neurotraumaJournal of oral and maxillofacial surgeryJournal of orthopaedic researchJournal of orthopaedic traumaJournal of paleontologyJournal of perinatal medicineJournal of petrologyJournal of pollination ecologyJournal of pragmaticsJournal of psychiatric and mental health nursingJournal of psychiatry and neuroscienceJournal of roman archaeology aJournal of roman archaeology bJournal of separation scienceJournal of shoulder and elbow surgeryJournal of simulationJournal of social archaeologyJournal of spinal disorders and techniquesJournal of studies on alcohol and drugsJournal of the academy of nutrition and dieteticsJournal of the air and waste management associationJournal of the american academy of orthopaedic surgeonsJournal of the american association of laboratory animal scienceJournal of the american college of cardiologyJournal of the american society of brewing chemistsJournal of the american society of nephrologyJournal of the american water resources associationJournal of the brazilian chemical societyJournal of the electrochemical societyJournal of the royal anthropological instituteJournal of thrombosis and haemostasisJournal of tropical ecologyJournal of vegetation scienceJournal of vertebrate paleontologyJournal of visualized experimentsJournal of wildlife diseasesJournal of zoologyJuristische zitierweiseKarger journalsKarger journals author dateKidney internationalKindheit und entwicklungKnee surgery sports traumatology arthroscopyKolner zeitschrift fur soziologie und sozialpsychologieKorean journal of anesthesiologyKritische ausgabeKth royal institute of technology school of computer science and communicationKth royal institute of technology school of computer science and communication svLandes bioscience journalsLanguageLanguage in societyLe mouvement socialLes journees de la recherche avicoleLes journees de la recherche porcineLethaiaLettres et sciences humaines frLeviathanLimnology and oceanographyLiver internationalLivestock scienceMacromolecular reaction engineeringMagnetic resonance in medicineMammal reviewManchester university pressMarine policyMcgill guide v7Mcrj7Medecine sciencesMedia culture and societyMedical historyMedical physicsMedicine and science in sports and exerciseMelbourne school of theologyMemorias do instituto oswaldo cruzMetallurgical and materials transactionsMeteoritics and planetary scienceMethods in ecology and evolutionMethods of information in medicineMetropolitiquesMicrobial drug resistanceMicroscopy and microanalysisMis quarterlyModern humanities research associationModern humanities research association author dateModern language associationModern language association 6th edition noteModern language association underlineModern language association with urlMohr siebeck rechtMolecular and biochemical parasitologyMolecular and cellular proteomicsMolecular biology and evolutionMolecular biology of the cellMolecular ecologyMolecular microbiologyMolecular phylogenetics and evolutionMolecular plantMolecular plant microbe interactionsMolecular psychiatryMolecular psychiatry lettersMolecular therapyMoore theological collegeMoorlands collegeMultidisciplinary digital publishing instituteMultiple sclerosis journalMyrmecological newsNano biomedicine and engineeringNational archives of australiaNational library of medicine grant proposalsNational science foundation grant proposalsNatureNature neuroscience brief communicationsNature no superscriptNatureza e conservacaoNavigationNeurologyNeurology indiaNeuropsychologiaNeuropsychopharmacologyNeurorehabilitation and neural repairNeuroreportNew phytologistNew solutionsNew zealand plant protectionNew zealand veterinary journalNorma portuguesa 405Northeastern naturalistNucleic acids researchObesityOccupational medicineOikosOncogeneOphthalmologyOral oncologyOrganic geochemistryOrganizationOrganization scienceOrnitologia neotropicalOryxOscolaOscola no ibidOsterreichische zeitschrift fur politikwissenschaftOwbarth verlagOxford art journalOxford centre for mission studies harvardOxford studies on the roman economyOxford the university of new south walesPadagogische hochschule heidelbergPainPalaeontologia electronicaPalaeontologyPalaiosPaleobiologyPediatric anesthesiaPediatric blood and cancerPediatric researchPermafrost and periglacial processesPhilosophia scientiaePhyllomedusaPhysiological and biochemical zoologyPisa university pressPlant biologyPlant physiologyPlosPm and rPnasPolish legalPolitical studiesPolitische vierteljahresschriftPontifical athenaeum regina apostolorumPontifical biblical institutePoultry sciencePresses universitaires de rennesProceedings of the royal society bProgress in retinal and eye researchProinflowProtein scienceProteomicsPsychiatry and clinical neurosciencesPsychological medicinePublic health nutritionQuaderni degli avogadro colloquiaQuaternary researchRadiographicsRadiopaediaResearch policyResources conservation and recyclingRevista argentina de antropologia biologicaRevista de biologia tropicalRevue archeologiqueRevue de medecine veterinaireRevue dhistoire moderne et contemporaineRofoRomanian humanitiesRose schoolRoyal society of chemistryRtf scanSage harvardSage vancouverScandinavian journal of infectious diseasesScandinavian journal of work environment and healthScandinavian political studiesScienceScience of the total environmentScience translational medicineScience without titlesSeminars in pediatric neurologySexual developmentSmallSocial science and medicineSocial studies of scienceSociedade brasileira de computacaoSociete nationale des groupements techniques veterinairesSociety for american archaeologySociety for general microbiologySociety for historical archaeologySociety of biblical literature fullnote bibliographySocio economic reviewSoil biology and biochemistrySoziale weltSozialpadagogisches institut berlin walter maySozialwissenschaften teilmannSoziologieSpanish legalSpie biosSpie journalsSpip citeSpringer basic author dateSpringer basic author date no et alSpringer basic bracketsSpringer basic brackets no et alSpringer humanities author dateSpringer humanities bracketsSpringer lecture notes in computer scienceSpringer lecture notes in computer science alphabeticalSpringer mathphys author dateSpringer mathphys bracketsSpringer physics author dateSpringer physics bracketsSpringerprotocolsSpringer socpsych author dateSpringer socpsych bracketsSpringer vancouverSpringer vancouver author dateSpringer vancouver bracketsStandards in genomic sciencesStavebni obzorStem cellsStem cells and developmentSt patricks collegeStrahlentherapie und onkologieStrategic management journalStrokeStudii teologiceStuttgart media universitySurgical neurology internationalSwedish legalSystematic biologyTaylor and francis chicago fTaylor and francis council of science editors author dateTaylor and francis harvard xTaylor and francis national library of medicineTechnische universitat munchen controllingTechnische universitat wienTeologia catalunyaTerra novaTgm wien diplomThe accounting reviewThe american journal of cardiologyThe american journal of gastroenterologyThe american journal of geriatric pharmacotherapyThe american journal of pathologyThe american journal of psychiatryThe american naturalistThe astrophysical journalThe aukThe bone and joint journalThe british journal of psychiatryThe british journal of sociologyThe company of biologistsThe condorThe design journalThe embo journalThe febs journalThe geological society of americaThe historical journalThe holoceneThe institute of electronics information and communication engineersThe international journal of psychoanalysisThe isme journalThe journal of adhesive dentistryThe journal of clinical endocrinology and metabolismThe journal of clinical investigationThe journal of comparative neurologyThe journal of eukaryotic microbiologyThe journal of hellenic studiesThe journal of immunologyThe journal of juristic papyrologyThe journal of neuropsychiatry and clinical neurosciencesThe journal of neuroscienceThe journal of painThe journal of pharmacology and experimental therapeuticsThe journal of physiologyThe journal of the acoustical society of americaThe journal of the torrey botanical societyThe journal of urologyThe journal of wildlife managementThe lancetThe lichenologistThe neuroscientistThe new england journal of medicineTheologie und philosophieThe oncologistThe open university a251The open university harvardThe open university m801The open university numericThe open university numeric superscriptThe optical societyTheory culture and societyThe pharmacogenomics journalThe plant cellThe plant journalThe review of financial studiesThe rockefeller university pressThe scandinavian journal of clinical and laboratory investigationThe world journal of biological psychiatryThieme e journals vancouverThrombosis and haemostasisTissue engineeringToxiconTracesTrafficTraffic injury preventionTransactions of the american philological associationTransportation research recordTrends journalsTriangleTurabian fullnote bibliographyUgeskrift for laegerUnified style linguisticsUnited nations conference on trade and developmentUniversidad evangelica del paraguayUniversita cattolica del sacro cuoreUniversita di bologna lettereUniversitat freiburg geschichteUniversitat heidelberg historisches seminarUniversite de liege histoireUniversite de picardie jules verne ufr de medecineUniversite de sherbrooke faculte d educationUniversite du quebec a montrealUniversiteit utrecht onderzoeksgids geschiedenisUniversite laval departement dinformation et de communicationUniversite laval faculte de theologie et de sciences religieusesUniversity college dublin school of history and archivesUniversity of south australia harvard 2011University of south australia harvard 2013Urban habitatsUrban studiesUser modeling and user adapted interactionUs geological surveyVancouverVancouver author dateVancouver bracketsVancouver brackets no et alVancouver brackets only year no issueVancouver superscriptVancouver superscript brackets only yearVancouver superscript only yearVeterinary medicine austriaVeterinary radiology and ultrasoundVienna legalVingtieme siecleVirologyVision researchWater environment researchWater researchWater science and technologyWeed science society of americaWheaton college phd in biblical and theological studiesWho europe harvardWho europe numericWissenschaftlicher industrielogistik dialogWorld congress on engineering asset managementXenotransplantationYeastZdravniski vestnikZeitschrift fur medienwissenschaftZeitschrift fur soziologieZookeysZootaxa"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Aguado M, San Mart&iacute;n G (2007) Syllidae (Polychaeta) from Lebanon with two new reports for the Mediterranean Sea. Cahiers de Biologie Marine 48: 207&#8209;224."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Arvanitidis C, Valavanis V, Eleftheriou A, Costello M, Faulwetter S, Gotsis P, Kitsos M, Kirmtzoglou I, Zenetos A, Petrov A, Galil B, Papageorgiou N (2006) MedOBIS: biogeographic information system for the eastern Mediterranean and Black Sea. Marine Ecology Progress Series 316: 225&#8209;230.  https://doi.org/10.3354/meps316225"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Barnich R, Fiege D (2003) The Aphroditoidea (Annelida: Polychaeta) of the Mediterranean Sea. Abhandlungen der Senckenbergischen Naturforschenden Gesellschaft 559: 1&#8209;167."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Ben-Eliahu M, Safriel U (1982) A comparison between species diversities of polychaetes from tropical temperate structurally similar rocky intertidal habitats. Journal of Biogeography 9: 371&#8209;390.  https://doi.org/10.2307/2844570"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Cardell MJ, Gili JM (1988) Distribution of a population of annelid polychaetes in the &ldquo;trottoir&rdquo; of the midlittoral zone on the coast of North-East Spain, Western Mediterranean. Marine Biology 99: 83&#8209;92.  https://doi.org/10.1007/BF00644980"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Carrera-Parra L (2006) Revision of Lumbrineris de Blainville, 1828 (Polychaeta: Lumbrineridae). Zootaxa 1336: 1&#8209;64."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Chintiroglou C, Koukouras A (1992) A population of the sea anemone Anemonia viridis (F&#337;rskal, 1775) and its associated flora and fauna, in the North Aegean Sea. Internationale Revue der gesamten Hydrobiologie und Hydrographie 77: 483&#8209;495.  https://doi.org/10.1002/iroh.19920770311"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Day J, Pont D, Helsen P, Iba&ntilde;ez C (1995) Impacts of sea-level rise on deltas in the Gulf of Mexico and the Mediterranean: The importance of pulsing events to sustainability. Estuaries 18 (4): 646&#8209;647.  https://doi.org/10.2307/1352382"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Fauchald K (1977) The polychaete worms, definitions and keys to the orders, families and genera. Natural History Museum of Los Angeles County, Los Angeles, 188 pp."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Fauvel P (1923) Faune de France: Polych&egrave;tes errantes. F&eacute;d&eacute;ration Fran&ccedil;aise des Soci&eacute;t&eacute;s de Sciences Naturelles, Paris, 488 pp."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Fauvel P (1927) Faune de France: Polych&egrave;tes S&eacute;dentaires. Lechevalier, Paris, 494 pp."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Giangrande A, Licciano M, Musco L (2005) Polychaetes as environmental indicators revisited. Marine Pollution Bulletin 50 (11): 1153&#8209;1162.  https://doi.org/10.1016/j.marpolbul.2005.08.003"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Holthe T (1986) Polychaeta Terebellomorpha. Marine Invertebrates of Scandinavia 7: 1&#8209;192."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Iken K, Konar B (2003) Natural Geography in Nearshore Areas (NaGISA): the nearshore component of the Census of Marine Life. Gayana 67: 153&#8209;160."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Olsgard F, Brattegard T, Holthe T (2003) Polychaetes as surrogates for marine biodiversity: lower taxonomic resolution and indicator groups. Biodiversity and Conservation 12: 1033&#8209;1049.  https://doi.org/10.1023/A:1022800405253"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "P&eacute;r&egrave;s J, Picard J (1964) Nouveau manuel de bionomie benthique de la mer M&eacute;diterran&eacute;e. Recueil des Travaux de la Station Marine d' Endoume 31 (47): 1&#8209;137."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "San Mart&iacute;n G (1984) Estudio biogeogr&aacute;fico, faunistico y sistem&aacute;tico de los poliquetos de la familia Silidos (Syllidae: Polychaeta) en Baleares. Universidad Complutense de Madrid, Madrid, 529 pp."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "San Mart&iacute;n G (2003) Annelida Polychaeta II: Syllidae. Museo Nacional de Ciencias Naturales, Madrid, 554 pp."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Sard&agrave; R (1991) Polychaete communities related to plant covering in the mediolittoral and infralittoral zones of the Balearic Islands (Western Mediterranean). P.S.Z.N.I: Marine Ecology 12 (4): 341&#8209;360.  https://doi.org/10.1111/j.1439-0485.1991.tb00263.x"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Stephenson TA, Stephenson A (1949) The universal features of zonation between tide-marks on rocky coasts. Journal of Ecology 37 (2): 289&#8209;305.  https://doi.org/10.2307/2256610"
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "ten Hove H, Kupriyanova E (2009) Taxonomy of Serpulidae (Annelida, Polychaeta): The state of affairs. Zootaxa 2036: 1&#8209;126."
+    },
+    {
+      "@type": "CreativeWork",
+      "citation": "Vieitez JM, Alos C, Parapar J (2004) Fauna Iberica: Annelida Polychaeta I. Annelida Polychaeta I, 25. Museo Nacional de Ciencias Naturales, Consejo Superior de Investigaciones Cientificas, 530 pp."
+    }
+  ],
+  "creditText": [
+    "Keklikoglou K, Faulwetter S, Chatzigeorgiou G, Badalamenti F, Kitsos M, Arvanitidis C (2013) MidMedPol: Polychaetes from midlittoral rocky shores in Greece and Italy (Mediterranean Sea). Biodiversity Data Journal 1: e961. https://doi.org/10.3897/BDJ.1.e961"
+  ],
+  "articleSection": [
+    "Aquatic",
+    "Biogeography",
+    "Coastal",
+    "Marine",
+    "Species Inventories"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Kleoniki Keklikoglou"
+    },
+    {
+      "@type": "Person",
+      "name": "Sarah Faulwetter"
+    },
+    {
+      "@type": "Person",
+      "name": "Giorgos Chatzigeorgiou"
+    },
+    {
+      "@type": "Person",
+      "name": "Fabio Badalamenti"
+    },
+    {
+      "@type": "Person",
+      "name": "Militiadis Kitsos"
+    },
+    {
+      "@type": "Person",
+      "name": "Christos Arvanitidis"
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bdj.pensoft.net/article/961"
+  },
+  "zenodo_id": "10_3897_BDJ_1_e961_figure2",
+  "publication_date": "2013-09-16",
+  "category": [
+    "ScholarlyArticle"
+  ]
+}

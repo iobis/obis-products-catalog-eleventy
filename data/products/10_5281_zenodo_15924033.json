@@ -1,0 +1,69 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.15924033",
+  "@type": "https://schema.org/SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0001-8241-1919",
+      "@type": "Person",
+      "familyName": "Murray",
+      "givenName": "Tylar",
+      "name": "Murray, Tylar"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4897-1669",
+      "@type": "Person",
+      "familyName": "Biddle",
+      "givenName": "Mathew",
+      "name": "Biddle, Mathew"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Rumman",
+      "givenName": "Mehraz",
+      "name": "Rumman, Mehraz"
+    }
+  ],
+  "contentSize": "898.53 KB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-8241-1919",
+      "@type": "Person",
+      "familyName": "Murray",
+      "givenName": "Tylar",
+      "name": "Murray, Tylar"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4897-1669",
+      "@type": "Person",
+      "familyName": "Biddle",
+      "givenName": "Mathew",
+      "name": "Biddle, Mathew"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Rumman",
+      "givenName": "Mehraz",
+      "name": "Rumman, Mehraz"
+    }
+  ],
+  "dateCreated": "2025-07-15T14:39:04.506323+00:00",
+  "dateModified": "2025-07-15T14:39:04.670564+00:00",
+  "datePublished": "2025-07-15",
+  "description": "The Global Ocean Observing System (GOOS), with NOAA's U.S. Integrated Ocean Observing System (IOOS) as part of it, uses Biological and Ecological Essential Ocean Variables (BioEco EOVs) to standardize ocean observing data from communities like the Marine Biodiversity Observation Network (MBON). The GOOS Biology and BioEco Variables focus on the abundance and distribution of key aquatic organisms. Using predefined lists of species, one can query biological occurrence data from the Ocean Biodiversity Information System (OBIS) and the Global Biodiversity Information Facility (GBIF). After querying, users can analyze OBIS and GBIF occurrence data to study the abundance and distribution of these BioEco Variables. This occurrence data can then be combined with gridded and tabular environmental data served by ERDDAP to further analyze into products (e.g. species distribution models). In this workshop we will demonstrate the tools and techniques for assessing ecosystem health using this open science framework.",
+  "identifier": "https://doi.org/10.5281/zenodo.15924033",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "name": "HackingLimno2025",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "898.53 KB",
+  "url": "https://zenodo.org/records/15924033",
+  "version": "v1.0",
+  "zenodo_id": "10_5281_zenodo_15924033",
+  "publication_date": "2025-07-15",
+  "category": [
+    "https://schema.org/SoftwareSourceCode"
+  ]
+}

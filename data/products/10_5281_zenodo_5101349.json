@@ -1,0 +1,196 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.5101349",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0002-7554-3646",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Environmental Physics, Institute of Biogeochemistry and Pollutant Dynamics, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland."
+        }
+      ],
+      "familyName": "Fabio Benedetti",
+      "name": "Fabio Benedetti"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Environmental Physics, Institute of Biogeochemistry and Pollutant Dynamics, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland."
+        }
+      ],
+      "familyName": "Meike Vogt",
+      "name": "Meike Vogt"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Environmental Physics, Institute of Biogeochemistry and Pollutant Dynamics, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland."
+        }
+      ],
+      "familyName": "Urs Hofmann-Elizondo",
+      "name": "Urs Hofmann-Elizondo"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Dynamic Macroecology, Landscape Dynamics, Swiss Federal Research Institute WSL, 8903 Birmensdorf, Switzerland."
+        }
+      ],
+      "familyName": "Damiano Righetti",
+      "name": "Damiano Righetti"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Dynamic Macroecology, Landscape Dynamics, Swiss Federal Research Institute WSL, 8903 Birmensdorf, Switzerland."
+        }
+      ],
+      "familyName": "Niklaus E. Zimmermann",
+      "name": "Niklaus E. Zimmermann"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Environmental Physics, Institute of Biogeochemistry and Pollutant Dynamics, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland."
+        }
+      ],
+      "familyName": "Nicolas Gruber",
+      "name": "Nicolas Gruber"
+    }
+  ],
+  "container_title": "Nature Communications",
+  "contentSize": "596.69 MB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-7554-3646",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Environmental Physics, Institute of Biogeochemistry and Pollutant Dynamics, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland."
+        }
+      ],
+      "familyName": "Fabio Benedetti",
+      "name": "Fabio Benedetti"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Environmental Physics, Institute of Biogeochemistry and Pollutant Dynamics, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland."
+        }
+      ],
+      "familyName": "Meike Vogt",
+      "name": "Meike Vogt"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Environmental Physics, Institute of Biogeochemistry and Pollutant Dynamics, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland."
+        }
+      ],
+      "familyName": "Urs Hofmann-Elizondo",
+      "name": "Urs Hofmann-Elizondo"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Dynamic Macroecology, Landscape Dynamics, Swiss Federal Research Institute WSL, 8903 Birmensdorf, Switzerland."
+        }
+      ],
+      "familyName": "Damiano Righetti",
+      "name": "Damiano Righetti"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Dynamic Macroecology, Landscape Dynamics, Swiss Federal Research Institute WSL, 8903 Birmensdorf, Switzerland."
+        }
+      ],
+      "familyName": "Niklaus E. Zimmermann",
+      "name": "Niklaus E. Zimmermann"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Environmental Physics, Institute of Biogeochemistry and Pollutant Dynamics, ETH Zürich, Universitätstrasse 16, 8092 Zürich, Switzerland."
+        }
+      ],
+      "familyName": "Nicolas Gruber",
+      "name": "Nicolas Gruber"
+    }
+  ],
+  "dateCreated": "2021-07-14T10:59:25.258207+00:00",
+  "dateModified": "2021-09-23T14:48:10.780733+00:00",
+  "datePublished": "2021-07-14",
+  "description": "<p><em><strong>Description of the methods used to implement the present ZooBase dataset (extarct from Section A.2 from the Methods of Benedetti et al., 2021).</strong></em></p>\n\n<p>A new dataset of global zooplankton species occurrences was compiled in a comparable fashion to that put together for phytoplankton (Righetti et al., 2020). Prior to retrieving the occurrence data online, we first identified the phyla (Order/Class/Family) that comprise the bulk of extant oceanic zooplankton communities: Copelata (i.e. appendicularians), Ctenophora, Cubozoa (i.e. box jellyfish), Euphausiidae (i.e. krill), Foraminifera, Gymnosomata (i.e. sea angels, pteropods), Hydrozoa (i.e. jellyfish), Hyperiidea (i.e. amphipods), Myodocopina (i.e. ostracods), Mysidae (i.e. small pelagic shrimps resembling krill), Neocopepoda, Podonidae and <em>Penilia</em> <em>avirostris</em> (i.e. cladocerans), Sagittoidea (i.e. chaetognaths), Scyphozoa (i.e. jellyfish), Thaliacea (i.e. salps, doliolids and pyrosomes), Thecosomata (i.e. pteropods), and four families of pelagic Polychaeta (i.e. worms) that are often found in the zooplankton and whose species are known to display holoplanktonic lifecycles (Tomopteridae, Alciopidae, Lopadorrhynchidae, Typhloscolecidae). The presence data associated with species belonging to these groups were retrieved from OBIS and GBIF between the 12/04/2018 and the 18/04/2018 using online queries via the R packages RPostgreSQL, robis and rgbif. Since the Neocopepoda infra-class comprise several thousands of benthic and parasitic taxa (https://copepodes.obs-banyuls.fr/en/), a preliminary selection of the non-parasitic planktonic species had to be carried out prior to the online downloading using the species list of Razouls et al. (https://copepodes.obs-banyuls.fr/en/) as a reference. The spatial distributions of the groups cited above were first inspected using GBIF&rsquo;s and OBIS&rsquo;s online mapping tools to evaluate the potential number of overlapping observations between the two databases. As a result of their relatively low contributions to total observations/diversity, and very high overlap between databases, the occurrences of Cladocera and Polychaeta were retrieved from OBIS only (which usually harbours more occurrences). On top of the data collected from OBIS and GBIF, the copepod occurrences from Cornils et al. (2018) and the pteropod occurrences from the MAREDAT initiative (Buitenhuis et al., 2013) were added to the dataset. We discarded records that: (i) presented at least one missing spatial coordinate, (ii) were associated with an incomplete sampling date (d/m/y), (iii) were associated with a year of collection older than 1800, (iv) were not associated with any sampling depth, (v) were not identified down to the species level. Occurrences associated with grid cells shallower than 10m were removed (bathymetry data from ETOPOv1 at a 15min resolution, downloaded using the &#39;marmap&#39; R package). Finally, every species name was then carefully examined and compared to the taxonomic reference list of the World Register of Marine Species (WoRMS; <a href=\"http://www.marinespecies.org\">http://www.marinespecies.org</a>) for all taxa. The AphiaID and the Status were retreived from WoRMS based on the ScientificName. To remove the duplicate occurrences due to the highly overlapping source archives (GBIF and OBIS), a unique occurrenceID was given to each record based on rounded spatial coordinates (closest 0.1&deg;x0.1&deg;), rounded depth layer (10m depth layers), month and year of the occurrence and the acccpted species name (e.g., AphiaID).</p>\n\n<p><strong>This project has received funding from the European Union&rsquo;s Horizon 2020 research and innovation programme under grant agreement No 862923. This output reflects only the author&rsquo;s view, and the European Union cannot be held responsible for any use that may be made of the information contained therein.</strong></p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/5101349/files/ZooBase_Benedetti_et_al._Nat.Comms.2021_final_Zenodo_columns_descriptors.docx/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/5101349/files/ZooBase_Benedetti_et_al._Nat.Comms.2021_final_Zenodo.txt/content",
+      "encodingFormat": "text/plain"
+    }
+  ],
+  "funding": [
+    {
+      "funder": {
+        "@id": "00k4n6c32",
+        "@type": "Organization",
+        "name": "European Commission"
+      },
+      "identifier": "00k4n6c32::862923",
+      "name": "Atlantic ECOsystems assessment, forecasting & sustainability (862923)",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/862923",
+        "scheme": "url"
+      }
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.5101349",
+  "inLanguage": {
+    "@type": "Language",
+    "alternateName": "eng",
+    "name": "English"
+  },
+  "keywords": "Zooplankton, Global Ocean, Niche Modelling, Biodiversity",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "ZooBase: A global synthesis of marine zooplankton species occurrences.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "596.69 MB",
+  "url": "https://zenodo.org/records/5101349",
+  "zenodo_id": "10_5281_zenodo_5101349",
+  "publication_date": "2021-07-14",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

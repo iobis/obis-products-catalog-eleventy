@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.7825749",
+  "@type": "https://schema.org/CreativeWork",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0001-9728-0771",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Greenland Climate Research Centre, Greenland Institute of Natural Resources, Nuuk, Greenland"
+        }
+      ],
+      "familyName": "Maier",
+      "givenName": "SR",
+      "name": "Maier, SR"
+    }
+  ],
+  "contentSize": "960.92 MB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-9728-0771",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Greenland Climate Research Centre, Greenland Institute of Natural Resources, Nuuk, Greenland"
+        }
+      ],
+      "familyName": "Maier",
+      "givenName": "SR",
+      "name": "Maier, SR"
+    }
+  ],
+  "dateCreated": "2023-04-13T13:39:21.292178+00:00",
+  "dateModified": "2023-04-13T13:39:22.596536+00:00",
+  "datePublished": "2022-09-20",
+  "description": "<p>QGIS map of Figure 3B-D, enabling to turn on/off layers for better visibility. To display the map in QGIS, open file &#39;CWC_Fig3.qgz&#39;; layers are stored in zip folder &#39;world_map.zip&#39; (if they do not open automatically, repair data source in QGIS by choosing the directory of the &#39;world_map.zip&#39; folder.</p>\n\n<p>R Code to plot Figures 4 &amp; 5, and code to download and clean obis data for cold-water corals.</p>\n\n<p>Please cite the original publication; citation will be added here upon acceptance of the Article.</p>\n\n<p>&nbsp;</p>",
+  "identifier": "https://doi.org/10.5281/zenodo.7825749",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "QGIS Map and R code accompanying publication \"On the paradox of thriving cold-water coral reefs in the food-limited deep sea\".",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "960.92 MB",
+  "url": "https://zenodo.org/records/7825749",
+  "zenodo_id": "10_5281_zenodo_7825749",
+  "publication_date": "2022-09-20",
+  "category": [
+    "https://schema.org/CreativeWork"
+  ]
+}

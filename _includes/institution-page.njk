@@ -1,0 +1,38 @@
+---
+pagination:
+  data: collections.byInstitution
+  size: 1
+  alias: institution
+permalink: "/institutions/{{ institution.id }}/"
+layout: base.njk
+---
+
+<h1>{{ institution.name }}</h1>
+
+<p>{{ institution.products.length }} product{% if institution.products.length != 1 %}s{% endif %} associated with this institution.</p>
+
+<section>
+    {% for product in institution.products %}
+    <article class="product-card">
+        <header>
+            <h3><a href="{{ product.url }}">{{ product.name }}</a></h3>
+        </header>
+        
+        {% if product.description %}
+        <p>{{ product.description | striptags | truncate(200) }}</p>
+        {% endif %}
+        
+        <footer>
+            <small>
+                {% if product.author and product.author.length > 0 %}
+                    {{ product.author[0].name }}{% if product.author.length > 1 %} et al.{% endif %}
+                    {% if product.datePublished %} | {% endif %}
+                {% endif %}
+                {% if product.datePublished %}
+                    {{ product.datePublished | readableDate }}
+                {% endif %}
+            </small>
+        </footer>
+    </article>
+    {% endfor %}
+</section>

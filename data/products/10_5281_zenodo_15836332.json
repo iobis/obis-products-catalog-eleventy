@@ -1,0 +1,45 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.15836332",
+  "@type": "https://schema.org/SoftwareSourceCode",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "CCYCheung",
+      "name": "CCYCheung"
+    }
+  ],
+  "contentSize": "6.1 KB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "CCYCheung",
+      "name": "CCYCheung"
+    }
+  ],
+  "dateCreated": "2025-07-08T11:45:23.066150+00:00",
+  "dateModified": "2025-07-08T11:49:50.159784+00:00",
+  "datePublished": "2025-07-08",
+  "description": "<p>This contains the R script used for acquiring, curating and analysing observation data of major true mangrove species for the article \"A critical appraisal of occurrence data in OBIS and GBIF databases: a case study on true mangrove species\" (DOI: 10.5343/bms.2024.0022).<br><br>8 Jul 2025: A R file (Mangroveobs_GBIFOBIS.R) is added.</p>",
+  "identifier": "https://doi.org/10.5281/zenodo.15836332",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Mangroveobs_v1.0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "sameAs": [
+    {
+      "@id": "https://github.com/Mangroven/Mangroveobs_GBIFOBIS/tree/Mangroveobs",
+      "@type": "SoftwareSourceCode"
+    }
+  ],
+  "size": "6.1 KB",
+  "url": "https://zenodo.org/records/15836332",
+  "version": "Mangroveobs",
+  "zenodo_id": "10_5281_zenodo_15836332",
+  "publication_date": "2025-07-08",
+  "category": [
+    "https://schema.org/SoftwareSourceCode"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.17004178",
+  "@type": "https://schema.org/ImageObject",
+  "author": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Grupo de Estudo do Medio Mariño (GEMM), Ribeira, Spain"
+        }
+      ],
+      "familyName": "Bañón",
+      "givenName": "Rafael",
+      "name": "Bañón, Rafael"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Departamento de Bioquímica, Xenética e Inmunoloxía, Facultade de Bioloxía, Universidade de Vigo, Vigo, Spain & Centro de Investigación Mariña, Universidade de Vigo, Vigo, Spain"
+        }
+      ],
+      "familyName": "Carlos",
+      "givenName": "Alejandro de",
+      "name": "Carlos, Alejandro de"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Centro de Apoyo Científico y Tecnológico a la Investigación (CACTI), Universidade de Vigo- Campus Lagoas Marcosende, Vigo, Spain"
+        }
+      ],
+      "familyName": "Comesaña",
+      "givenName": "Sebastián",
+      "name": "Comesaña, Sebastián"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Departamento de Anatomía, Produción Animal e Ciencias Clínicas Veterinarias, Hospital Veterinario Universitario Rof Codina, Facultade de Veterinaria, Universidade de Santiago de Compostela, Lugo, Spain"
+        }
+      ],
+      "familyName": "Vázquez",
+      "givenName": "José Daniel Barreiro",
+      "name": "Vázquez, José Daniel Barreiro"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Centro Oceanográfico de Cádiz, Instituto Español de Oceanografía, Consejo Superior de Investigaciones Científicas, Cádiz, Spain"
+        }
+      ],
+      "familyName": "Baldó",
+      "givenName": "Francisco",
+      "name": "Baldó, Francisco"
+    }
+  ],
+  "container_title": "Journal of Fish Biology",
+  "contentSize": "1.4 MB",
+  "creator": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Grupo de Estudo do Medio Mariño (GEMM), Ribeira, Spain"
+        }
+      ],
+      "familyName": "Bañón",
+      "givenName": "Rafael",
+      "name": "Bañón, Rafael"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Departamento de Bioquímica, Xenética e Inmunoloxía, Facultade de Bioloxía, Universidade de Vigo, Vigo, Spain & Centro de Investigación Mariña, Universidade de Vigo, Vigo, Spain"
+        }
+      ],
+      "familyName": "Carlos",
+      "givenName": "Alejandro de",
+      "name": "Carlos, Alejandro de"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Centro de Apoyo Científico y Tecnológico a la Investigación (CACTI), Universidade de Vigo- Campus Lagoas Marcosende, Vigo, Spain"
+        }
+      ],
+      "familyName": "Comesaña",
+      "givenName": "Sebastián",
+      "name": "Comesaña, Sebastián"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Departamento de Anatomía, Produción Animal e Ciencias Clínicas Veterinarias, Hospital Veterinario Universitario Rof Codina, Facultade de Veterinaria, Universidade de Santiago de Compostela, Lugo, Spain"
+        }
+      ],
+      "familyName": "Vázquez",
+      "givenName": "José Daniel Barreiro",
+      "name": "Vázquez, José Daniel Barreiro"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Centro Oceanográfico de Cádiz, Instituto Español de Oceanografía, Consejo Superior de Investigaciones Científicas, Cádiz, Spain"
+        }
+      ],
+      "familyName": "Baldó",
+      "givenName": "Francisco",
+      "name": "Baldó, Francisco"
+    }
+  ],
+  "dateCreated": "2025-08-30T06:39:40.092810+00:00",
+  "dateModified": "2025-08-30T06:39:40.516929+00:00",
+  "datePublished": "2024-07-19",
+  "description": "F I G U R E 2 Location of Barathronus roulei on Porcupine Bank (red triangle). Also shown is the location of records of Atlantic Barathronus species (GBIF. org, 2023; OBIS, 2023).",
+  "identifier": "https://doi.org/10.5281/zenodo.17004178",
+  "isPartOf": [
+    {
+      "@id": "https://doi.org/10.1111/jfb.15878",
+      "@type": "ScholarlyArticle"
+    },
+    {
+      "@id": "https://zenodo.org/record/17004174",
+      "@type": "ScholarlyArticle"
+    }
+  ],
+  "issue": "4",
+  "keywords": "Biodiversity, Taxonomy",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "F I G U R E 2 in Second world record for Barathronus roulei Nielsen, 2019 (Ophidiiformes, Bythitidae), from the Porcupine Bank (Northeast Atlantic)",
+  "page": "1348-1353",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "1.4 MB",
+  "url": "https://zenodo.org/records/17004178",
+  "volume": "105",
+  "zenodo_id": "10_5281_zenodo_17004178",
+  "publication_date": "2024-07-19",
+  "category": [
+    "https://schema.org/ImageObject"
+  ]
+}

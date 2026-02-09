@@ -1,0 +1,84 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.15610736",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Anonymous",
+      "name": "Anonymous"
+    }
+  ],
+  "contentSize": "25.4 GB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "Anonymous",
+      "name": "Anonymous"
+    }
+  ],
+  "dateCreated": "2025-06-07T21:31:29.051345+00:00",
+  "dateModified": "2025-06-07T21:31:29.637048+00:00",
+  "datePublished": "2025-06-06",
+  "description": "<p>The dataset contains records of Amphipoda occurrences retrieved from the Ocean Biodiversity Information System (OBIS) (<a href=\"https://obis.org/\" target=\"_new\" rel=\"noopener\">https://obis.org/</a>). It comprises both the unprocessed data as initially downloaded and a refined subset tailored for species distribution modeling. The refinement process involved spatial, temporal, and data quality filtering to enhance the reliability of deep-sea benthic amphipod representation in the North Atlantic. Accompanying metadata and licensing information are provided in a separate document.</p>\n<p>Bathymetric information was acquired from the General Bathymetric Chart of the Oceans (GEBCO) (<a href=\"https://www.gebco.net/data-products/gridded-bathymetry-data\" target=\"_new\" rel=\"noopener\">https://www.gebco.net/data-products/gridded-bathymetry-data</a>), with applicable usage terms included.</p>\n<p>Environmental variables used in modeling were sourced from the Bio-ORACLE project (<a href=\"https://bio-oracle.org/downloads-to-email.php\" target=\"_new\" rel=\"noopener\">https://bio-oracle.org/downloads-to-email.php</a>) and are distributed under the GNU General Public License.</p>\n<p>&nbsp;</p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/BIOORACLE_Present day_2010_2020_depthmean.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/BIOORACLE_Present day_2000-2010_meandepth.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/citations.html/content",
+      "encodingFormat": "text/html"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/GEBCO_Grid_terms_of_use.pdf/content",
+      "encodingFormat": "application/pdf"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/gebco_2024_n80.0_s56.0_w-45.0_e45.0.tif/content",
+      "encodingFormat": "image/tiff"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/Occurrence.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/BIOORACLE_2050-2060_meandepth .zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/BIOORACLE_2090-2100_meandepth .zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15610736/files/Cleaned_PA_Amphi_Dataset.csv/content",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.15610736",
+  "name": "Deep-Sea Amphipod Data from the North Atlantic",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "25.4 GB",
+  "url": "https://zenodo.org/records/15610736",
+  "zenodo_id": "10_5281_zenodo_15610736",
+  "publication_date": "2025-06-06",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

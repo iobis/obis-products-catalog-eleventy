@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: OBIS Nodes
+permalink: /nodes/
+---
+
+<h1>OBIS Nodes</h1>
+
+<p>Browse products by OBIS node association.</p>
+
+{% if collections.byNode.length > 0 %}
+<div class="nodes-grid">
+    {% for node in collections.byNode %}
+    <article class="node-card">
+        <header>
+            <h3><a href="/nodes/{{ node.id }}/">{{ node.name }}</a></h3>
+        </header>
+        {% if node.description %}
+        <p>{{ node.description | truncate(150) }}</p>
+        {% endif %}
+        <p><strong>{{ node.products.length }}</strong> product{% if node.products.length != 1 %}s{% endif %}</p>
+    </article>
+    {% endfor %}
+</div>
+{% else %}
+<p><em>No OBIS nodes found.</em></p>
+{% endif %}

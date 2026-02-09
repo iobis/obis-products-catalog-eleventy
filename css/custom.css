@@ -1,0 +1,185 @@
+/* Custom styles for OBIS Products Catalog */
+
+:root {
+    --obis-blue: #0066cc;
+    --obis-light-blue: #e6f2ff;
+}
+
+/* Pagefind search styling */
+#pagefind-search {
+    margin-bottom: 2rem;
+}
+
+.pagefind-ui__search-input {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+}
+
+.pagefind-ui__result {
+    border: 1px solid var(--muted-border-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pagefind-ui__result:hover {
+    border-color: var(--obis-blue);
+}
+
+/* Header styling */
+header h1 {
+    color: var(--obis-blue);
+}
+
+/* Stats section */
+.stats {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--obis-light-blue);
+    border-radius: 0.5rem;
+}
+
+.stats strong {
+    font-size: 2rem;
+    color: var(--obis-blue);
+    display: block;
+}
+
+/* Product cards */
+.product-card {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--muted-border-color);
+    border-radius: 0.5rem;
+}
+
+.product-card:hover {
+    border-color: var(--obis-blue);
+    box-shadow: 0 2px 8px rgba(0, 102, 204, 0.1);
+}
+
+.product-card h3 {
+    margin-top: 0;
+}
+
+.product-card footer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--muted-border-color);
+}
+
+/* Tags */
+.tags {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: var(--obis-light-blue);
+    color: var(--obis-blue);
+    border-radius: 1rem;
+    font-size: 0.875rem;
+}
+
+.node-tag {
+    background: var(--obis-light-blue);
+    color: var(--obis-blue);
+}
+
+.category-tag {
+    background: #f0f0f0;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Filter section */
+.search-filter {
+    margin: 2rem 0;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+#results-count {
+    font-weight: 600;
+    color: var(--obis-blue);
+    margin-bottom: 1rem;
+}
+
+/* Metadata display */
+.metadata dl {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.metadata dt {
+    font-weight: 600;
+    color: var(--muted-color);
+}
+
+.metadata dd {
+    margin: 0;
+}
+
+.description {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--card-background-color);
+    border-left: 4px solid var(--obis-blue);
+}
+
+.keyword {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: var(--obis-light-blue);
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .metadata dl {
+        grid-template-columns: 1fr;
+    }
+    
+    .metadata dt {
+        margin-top: 1rem;
+    }
+}
+
+/* Hidden class for filtering */
+.hidden {
+    display: none !important;
+}
+
+/* search help */
+.search-help {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.search-help summary {
+    color: var(--obis-blue);
+    cursor: pointer;
+}
+
+.search-help-content {
+    padding: 1rem;
+    background: var(--obis-light-blue);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.search-help-content ul {
+    margin: 0.5rem 0;
+}

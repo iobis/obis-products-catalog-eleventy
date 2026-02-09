@@ -1,0 +1,80 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.fj6q573q3",
+  "name": "Integrating univariate niche dynamics in species distribution models: a step forward for marine research on biological invasions",
+  "description": "Aim The development of approaches to predict the distribution and potential expansion of invasive species is still an open challenge. Here our goal is to improve the modelling procedure for marine invaders by coupling Species Distribution Models (SDMs) with an analysis of their univariate niche dynamics. In particular, we tested for the first time whether choosing model predictors among the stable niche dimensions was effective in improving predictions of invasive species expansion.\nLocation Mediterranean Sea\nTaxon Dusky spinefoot, Siganus luridus.\nMethods We analysed the univariate niche dynamics for S. luridus across its native and invaded ranges, by applying a standardized framework that allowed the identification of cases of niche stability or shift. We compared inter-range transferability of SDMs fitted with different combinations of labile or stable predictors. Finally, we evaluated interactions in SDM settings (calibration area, model technique and predictors set) on models’ pred...  This dataset compiles georeferenced occurrence records of the dusky spinefoot&nbsp;Siganus luridus (Rüppell, 1829) (Pisces&nbsp;Actinopterygii,&nbsp;Siganidae) in&nbsp;its invasive (Mediterranean) and native range. Observations downloaded from the databases&nbsp;OBIS and&nbsp;&nbsp;GBIF were reported with their ID number. All the other records were derived from published literature or from other scientific sources, previously validaded by the autors.&nbsp;&nbsp;The dataset is divided in two groups, the 'train-set' and the 'test-set', according to the methods explained in the associated paper.\n ",
+  "url": "http://datadryad.org/dataset/doi%253A10.5061%252Fdryad.fj6q573q3",
+  "contentUrl": "http://datadryad.org/downloads/file_stream/182130",
+  "identifier": "https://doi.org/10.5061/dryad.fj6q573q3",
+  "version": 2,
+  "isAccessibleForFree": true,
+  "keywords": [
+    "dusky spinefoot",
+    "ensemble models",
+    "Lessepsian migration",
+    "Mediterranean Sea",
+    " niche pioneering",
+    "niche stability",
+    "niche unfilling",
+    "non-analogue climate",
+    "variable selection"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Ernesto Azzurro",
+      "givenName": "Ernesto",
+      "familyName": "Azzurro",
+      "sameAs": "http://orcid.org/0000-0002-9805-3164",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/022zv0672",
+        "name": "Istituto Superiore per la Protezione e la Ricerca Ambientale"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Manuela D'Amen",
+      "givenName": "Manuela",
+      "familyName": "D'Amen",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/022zv0672",
+        "name": "Istituto Superiore per la Protezione e la Ricerca Ambientale"
+      }
+    }
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/zip",
+    "contentUrl": "http://datadryad.org/api/v2/datasets/doi%253A10.5061%252Fdryad.fj6q573q3/download"
+  },
+  "temporalCoverage": [
+    "2019-10-14 13:30:37 UTC",
+    "2020-10-29 00:00:00 UTC",
+    "2020-10-29 00:00:00 UTC"
+  ],
+  "spatialCoverage": [],
+  "citation": "http://doi.org/10.1111/jbi.13761",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "license": "https://spdx.org/licenses/CC0-1.0.html"
+  },
+  "publisher": {
+    "@id": "https://datadryad.org",
+    "@type": "Organization",
+    "legalName": "Dryad Data Platform",
+    "name": "Dryad",
+    "url": "https://datadryad.org"
+  },
+  "provider": {
+    "@id": "https://datadryad.org"
+  },
+  "zenodo_id": "10_5061_dryad_fj6q573q3",
+  "publication_date": "",
+  "category": [
+    "Dataset"
+  ]
+}

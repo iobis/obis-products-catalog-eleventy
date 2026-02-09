@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.3529008",
+  "@type": "https://schema.org/ImageObject",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Lima",
+      "givenName": "Manuela M.",
+      "name": "Lima, Manuela M."
+    },
+    {
+      "@type": "Person",
+      "familyName": "Cordeiro",
+      "givenName": "Ralf T. S.",
+      "name": "Cordeiro, Ralf T. S."
+    },
+    {
+      "@type": "Person",
+      "familyName": "Perez",
+      "givenName": "Carlos D.",
+      "name": "Perez, Carlos D."
+    }
+  ],
+  "container_title": "Zootaxa",
+  "contentSize": "3.55 MB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "Lima",
+      "givenName": "Manuela M.",
+      "name": "Lima, Manuela M."
+    },
+    {
+      "@type": "Person",
+      "familyName": "Cordeiro",
+      "givenName": "Ralf T. S.",
+      "name": "Cordeiro, Ralf T. S."
+    },
+    {
+      "@type": "Person",
+      "familyName": "Perez",
+      "givenName": "Carlos D.",
+      "name": "Perez, Carlos D."
+    }
+  ],
+  "dateCreated": "2019-11-05T07:34:26.708068+00:00",
+  "dateModified": "2024-07-22T16:54:28.839516+00:00",
+  "datePublished": "2019-11-05",
+  "description": "FIGURE 32. Geographic distribution of Stylopathes adinocrada Opresko, 2006. Yellow circles: records extracted from the literature (Opresko, 2006) and based on Ocean Biogeographic Information System (OBIS). Red circle: record made in the present work.",
+  "identifier": "https://doi.org/10.5281/zenodo.3529008",
+  "isPartOf": [
+    {
+      "@id": "https://doi.org/10.11646/zootaxa.4692.1.1",
+      "@type": "ScholarlyArticle"
+    },
+    {
+      "@id": "http://publication.plazi.org/id/FFB6FFF3C913FF99F97CFFD9FF99F21A",
+      "@type": "ScholarlyArticle"
+    },
+    {
+      "@id": "https://zenodo.org/record/3528942",
+      "@type": "ScholarlyArticle"
+    }
+  ],
+  "issue": "1",
+  "keywords": "Biodiversity, Taxonomy, Animalia, Cnidaria, Anthozoa, Antipatharia, Stylopathidae, Stylopathes",
+  "license": null,
+  "name": "FIGURE 32 in Black Corals (Anthozoa: Antipatharia) from the Southwestern Atlantic",
+  "page": "1-67",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "3.55 MB",
+  "url": "https://zenodo.org/records/3529008",
+  "volume": "4692",
+  "zenodo_id": "10_5281_zenodo_3529008",
+  "publication_date": "2019-11-05",
+  "category": [
+    "https://schema.org/ImageObject"
+  ]
+}

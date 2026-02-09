@@ -1,0 +1,123 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.15487410",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0002-1422-9637",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/2922",
+          "@type": "Organization",
+          "name": "University of Plymouth"
+        }
+      ],
+      "familyName": "Bridges",
+      "givenName": "Amelia",
+      "name": "Bridges, Amelia"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3359-1778",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/2922",
+          "@type": "Organization",
+          "name": "University of Plymouth"
+        },
+        {
+          "@id": "https://edmo.seadatanet.org/report/47",
+          "@type": "Organization",
+          "name": "Plymouth Marine Laboratory"
+        }
+      ],
+      "familyName": "Howell",
+      "givenName": "Kerry",
+      "name": "Howell, Kerry"
+    }
+  ],
+  "container_title": "Nature Communications Earth & Environment",
+  "contentSize": "4.41 GB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-1422-9637",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/2922",
+          "@type": "Organization",
+          "name": "University of Plymouth"
+        }
+      ],
+      "familyName": "Bridges",
+      "givenName": "Amelia",
+      "name": "Bridges, Amelia"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3359-1778",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/2922",
+          "@type": "Organization",
+          "name": "University of Plymouth"
+        },
+        {
+          "@id": "https://edmo.seadatanet.org/report/47",
+          "@type": "Organization",
+          "name": "Plymouth Marine Laboratory"
+        }
+      ],
+      "familyName": "Howell",
+      "givenName": "Kerry",
+      "name": "Howell, Kerry"
+    }
+  ],
+  "dateCreated": "2025-06-05T07:40:37.145943+00:00",
+  "dateModified": "2025-09-12T15:19:51.370160+00:00",
+  "datePublished": "2025-05-27",
+  "description": "<p>All global records with record depths of 30 m and deeper were downloaded from the Ocean Biodiversity Information System (OBIS). Following methods described in Bridges and Howell (2025), data were segregated into benthic and pelagic datasets using advanced statistical techniques. For the full methodology, please see Bridges and Howell (2025). For the code to rerun the segregation pipeline on new datasets, please see: https://github.com/ameliabridges/Bridges-Howell_OA_repo_pipeline.&nbsp;</p>\n<p>Datasets are available as separate CSV files, or TIFF files where the total number of records are binned into 1x1degree cells.&nbsp;</p>\n<p>Bridges, A.E.H. and Howell, K.L. 2025. Prioritisation of ocean biodiversity data collection to deliver a sustainable ocean. Nature Communications Earth and Environment, 6. DOI: 10.1038/s43247-025-02442-7</p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15487410/files/AllPelagicRecords_TaxonID2_Global_FINAL.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15487410/files/AllPelagicRecords_TaxonID2_Global_1deg_FINAL.tif/content",
+      "encodingFormat": "image/tiff"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15487410/files/AllBenthicRecords_TaxonID2_Global_1deg_FINAL.tif/content",
+      "encodingFormat": "image/tiff"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15487410/files/AllBenthicRecords_TaxonID2_Global_FINAL.csv/content",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.15487410",
+  "inLanguage": {
+    "@type": "Language",
+    "alternateName": "eng",
+    "name": "English"
+  },
+  "keywords": "Biodiversity, Open-access, Big data, OBIS",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Global, open-access benthic & pelagic datasets (30m+) - Bridges and Howell (2025)",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "4.41 GB",
+  "url": "https://zenodo.org/records/15487410",
+  "zenodo_id": "10_5281_zenodo_15487410",
+  "publication_date": "2025-05-27",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

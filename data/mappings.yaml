@@ -1,0 +1,21 @@
+# OBIS Node and Institution Mappings
+# Add mappings for products to associate them with OBIS nodes and institutions
+# 
+# Format:
+# - doi: The DOI of the product (without https://doi.org/)
+#   obis_nodes:
+#     - id: Unique identifier for the node
+#       name: Display name of the node
+#       url: URL to the node page
+#   institutions:
+#     - id: Unique identifier (e.g., oceanexpert ID)
+#       name: Institution name
+#       role: Role (e.g., data_provider, maintainer, funder)
+#       url: Optional URL to institution
+
+products:
+  - doi: 10.5281/zenodo.11464531
+    obis_nodes:
+      - id: b7c47783-a020-4173-b390-7b57c4fa1426  # OBIS-USA UUID
+    institutions:
+      - id: 12751 # IOOS

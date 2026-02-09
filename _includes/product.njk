@@ -1,0 +1,112 @@
+---
+pagination:
+  data: collections.products
+  size: 1
+  alias: product
+permalink: "/products/{{ product.zenodo_id }}/"
+layout: base.njk
+---
+
+<article>
+    <header>
+        <h1>{{ product.name }}</h1>
+    </header>
+    
+    <section class="metadata">
+        {% if product.description %}
+        <div class="description">
+            {{ product.description | safe }}
+        </div>
+        {% endif %}
+        
+        <dl>
+            <dt>DOI</dt>
+            <dd>
+                <a href="https://doi.org/{{ product.identifier }}" target="_blank">
+                    {{ product.identifier }}
+                </a>
+            </dd>
+            
+            {% if product.author and product.author.length > 0 %}
+            <dt>Authors</dt>
+            <dd>
+                {% for author in product.author %}
+                    {% if author['@id'] %}
+                        <a href="{{ author['@id'] }}" target="_blank">{{ author.name }}</a>
+                    {% else %}
+                        {{ author.name }}
+                    {% endif %}
+                    {% if author.affiliation %}
+                        ({{ author.affiliation.name }})
+                    {% endif %}
+                    {% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </dd>
+            {% endif %}
+            
+            {% if product.datePublished %}
+            <dt>Publication Date</dt>
+            <dd>{{ product.datePublished | readableDate }}</dd>
+            {% endif %}
+            
+            {% if product.publisher %}
+            <dt>Publisher</dt>
+            <dd>{{ product.publisher.name }}</dd>
+            {% endif %}
+            
+            {% if product.license %}
+            <dt>License</dt>
+            <dd>{{ product.license }}</dd>
+            {% endif %}
+            
+            {% if product.version %}
+            <dt>Version</dt>
+            <dd>{{ product.version }}</dd>
+            {% endif %}
+            
+            {% if product.keywords and product.keywords.length > 0 %}
+            <dt>Keywords</dt>
+            <dd>
+                {% for keyword in product.keywords %}
+                    <span class="keyword">{{ keyword }}</span>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </dd>
+            {% endif %}
+            
+            {% if product.obis_nodes and product.obis_nodes.length > 0 %}
+            <dt>OBIS Nodes</dt>
+            <dd>
+                {% for node in product.obis_nodes %}
+                    <a href="/nodes/{{ node.id }}/">{{ node.name }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </dd>
+            {% endif %}
+            
+            {% if product.institutions and product.institutions.length > 0 %}
+            <dt>Institutions</dt>
+            <dd>
+                {% for inst in product.institutions %}
+                    {% if inst.url %}
+                        <a href="{{ inst.url }}" target="_blank">{{ inst.name }}</a>
+                    {% else %}
+                        {{ inst.name }}
+                    {% endif %}
+                    {% if inst.role %}({{ inst.role }}){% endif %}
+                    {% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </dd>
+            {% endif %}
+        </dl>
+        
+        {% if product.url %}
+        <p>
+            <a href="{{ product.url }}" role="button" target="_blank">View on {{ product.publisher.name }}</a>
+        </p>
+        {% endif %}
+    </section>
+</article>
+
+<!-- Embedded JSON-LD for machine consumption -->
+<script type="application/ld+json">
+{{ product | dump | safe }}
+</script>

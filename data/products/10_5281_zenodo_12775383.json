@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.12775383",
+  "@type": "https://schema.org/ImageObject",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Lutaenko",
+      "givenName": "K.A.",
+      "name": "Lutaenko, K.A."
+    },
+    {
+      "@type": "Person",
+      "familyName": "Kepel",
+      "givenName": "A.A.",
+      "name": "Kepel, A.A."
+    }
+  ],
+  "container_title": "The Bulletin of the Russian Far East Malacological Society",
+  "contentSize": "242.64 KB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "Lutaenko",
+      "givenName": "K.A.",
+      "name": "Lutaenko, K.A."
+    },
+    {
+      "@type": "Person",
+      "familyName": "Kepel",
+      "givenName": "A.A.",
+      "name": "Kepel, A.A."
+    }
+  ],
+  "dateCreated": "2024-07-18T21:00:39.348028+00:00",
+  "dateModified": "2024-08-28T17:35:17.429948+00:00",
+  "datePublished": "2017-11-10",
+  "description": "Рис. 3. Распространение Modiolus nipponicus (Oyama, 1950) на основе литературных данных и OBIS (http://www.iobis. org/). Стрелка покаЗывает находку в России.",
+  "identifier": "https://doi.org/10.5281/zenodo.12775383",
+  "isPartOf": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.12775371",
+      "@type": "ScholarlyArticle"
+    },
+    {
+      "@id": "http://publication.plazi.org/id/FFA9FFE3FFADEF6BFFA07A00A040FFA0",
+      "@type": "ScholarlyArticle"
+    }
+  ],
+  "issue": "1/2",
+  "keywords": "Biodiversity, Taxonomy, Animalia, Mollusca, Bivalvia, Mytilida, Mytilidae, Modiolus",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Рис. 3. Распространение Modiolus nipponicus (Oyama, 1950) на основе литературных данных и OBIS (http://www.iobis. org/). Стрелка покаЗывает находку в России. in Finding of Modiolus nipponicus (Oyama, 1950) (Bivalvia: Mytilidae) in Russian waters of the Sea of Japan",
+  "page": "163-177",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "242.64 KB",
+  "url": "https://zenodo.org/records/12775383",
+  "volume": "21",
+  "zenodo_id": "10_5281_zenodo_12775383",
+  "publication_date": "2017-11-10",
+  "category": [
+    "https://schema.org/ImageObject"
+  ]
+}

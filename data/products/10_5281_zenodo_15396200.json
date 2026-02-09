@@ -1,0 +1,214 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.15396200",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/4989",
+          "@type": "Organization",
+          "name": "Institute of Marine Ecosystem and Fishery Science, University of Hamburg"
+        },
+        {
+          "@type": "Organization",
+          "name": "School of Computer Science and Mathematics, Liverpool John Moores University, Liverpool, UK"
+        }
+      ],
+      "familyName": "Kürzel",
+      "givenName": "Karlotta",
+      "name": "Kürzel, Karlotta"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Hammock",
+      "givenName": "Craig",
+      "name": "Hammock, Craig"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "The Arctic University Museum of Norway, UiT The Arctic University of Norway, Tromsø, Norway"
+        }
+      ],
+      "familyName": "Pitusi",
+      "givenName": "Vanessa",
+      "name": "Pitusi, Vanessa"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/4989",
+          "@type": "Organization",
+          "name": "Institute of Marine Ecosystem and Fishery Science, University of Hamburg"
+        },
+        {
+          "@type": "Organization",
+          "name": "Senckenberg am Meer, German Centre for Marine Biodiversity Research (DZMB), c/o Biozentrum Grindel, Universität Hamburg, Martin-Luther-King-Platz 3, 20146 Hamburg, Germany"
+        }
+      ],
+      "familyName": "Brix",
+      "givenName": "Saskia",
+      "name": "Brix, Saskia"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/4989",
+          "@type": "Organization",
+          "name": "Institute of Marine Ecosystem and Fishery Science, University of Hamburg"
+        },
+        {
+          "@type": "Organization",
+          "name": "Senckenberg am Meer (SaM), Department Marine Research, Südstrand 40, 26382 Wilhelmshaven, Germany"
+        }
+      ],
+      "familyName": "Lörz",
+      "givenName": "Anne-Nina",
+      "name": "Lörz, Anne-Nina"
+    }
+  ],
+  "contentSize": "25.49 GB",
+  "creator": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/4989",
+          "@type": "Organization",
+          "name": "Institute of Marine Ecosystem and Fishery Science, University of Hamburg"
+        },
+        {
+          "@type": "Organization",
+          "name": "School of Computer Science and Mathematics, Liverpool John Moores University, Liverpool, UK"
+        }
+      ],
+      "familyName": "Kürzel",
+      "givenName": "Karlotta",
+      "name": "Kürzel, Karlotta"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Hammock",
+      "givenName": "Craig",
+      "name": "Hammock, Craig"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "The Arctic University Museum of Norway, UiT The Arctic University of Norway, Tromsø, Norway"
+        }
+      ],
+      "familyName": "Pitusi",
+      "givenName": "Vanessa",
+      "name": "Pitusi, Vanessa"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/4989",
+          "@type": "Organization",
+          "name": "Institute of Marine Ecosystem and Fishery Science, University of Hamburg"
+        },
+        {
+          "@type": "Organization",
+          "name": "Senckenberg am Meer, German Centre for Marine Biodiversity Research (DZMB), c/o Biozentrum Grindel, Universität Hamburg, Martin-Luther-King-Platz 3, 20146 Hamburg, Germany"
+        }
+      ],
+      "familyName": "Brix",
+      "givenName": "Saskia",
+      "name": "Brix, Saskia"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://edmo.seadatanet.org/report/4989",
+          "@type": "Organization",
+          "name": "Institute of Marine Ecosystem and Fishery Science, University of Hamburg"
+        },
+        {
+          "@type": "Organization",
+          "name": "Senckenberg am Meer (SaM), Department Marine Research, Südstrand 40, 26382 Wilhelmshaven, Germany"
+        }
+      ],
+      "familyName": "Lörz",
+      "givenName": "Anne-Nina",
+      "name": "Lörz, Anne-Nina"
+    }
+  ],
+  "dateCreated": "2025-06-05T21:29:37.851329+00:00",
+  "dateModified": "2025-10-27T13:33:02.233180+00:00",
+  "datePublished": "2025-06-05",
+  "description": "<p>This dataset is based on occurrence data from the <strong>Ocean Biodiversity Information System (OBIS)</strong> (<a href=\"https://obis.org/\" target=\"_new\" rel=\"noopener\">https://obis.org/</a>), originally downloaded using the OBIS Mapper tool. It includes both the raw occurrence data as initially extracted, as well as the filtered version used for species distribution modeling. The filtering steps included spatial, temporal, and quality checks to ensure accurate representation of benthic amphipod distributions in the deep North Atlantic. Additionally, the metadata, including their licenses, is included in a separate file.</p>\n<p>Bathymetry data was sourced from <strong>GEBCO</strong> (<a href=\"https://www.gebco.net/data-products/gridded-bathymetry-data\" target=\"_new\" rel=\"noopener\">https://www.gebco.net/data-products/gridded-bathymetry-data</a>) and includes the terms of use.</p>\n<p>Environmental modeling layers were obtained from <strong>Bio-ORACLE</strong> (<a href=\"https://bio-oracle.org/downloads-to-email.php\" target=\"_new\" rel=\"noopener\">https://bio-oracle.org/downloads-to-email.php</a>) and are included under the GNU General Public License.</p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/citations.html/content",
+      "encodingFormat": "text/html"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/Cleaned_PA_Amphi_Dataset_forzenodo.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/Occurrence.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/gebco_2024_n80.0_s56.0_w-45.0_e45.0.tif/content",
+      "encodingFormat": "image/tiff"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/2050-2060_meandepth.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/2090-2100_meandepth.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/present day_2010-2020_meandepth.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/Present day_2000-2010_meandepth.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/15396200/files/GEBCO_Grid_terms_of_use.pdf/content",
+      "encodingFormat": "application/pdf"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.15396200",
+  "keywords": "Amphipoda, North atlantic ocean, Crustacea, Deep sea, Benthic ecosystem",
+  "name": "Data for \"Species Distribution Modelling of Benthic Amphipod Crustaceans in the Deep North Atlantic Under Climate Change\"",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "25.49 GB",
+  "url": "https://zenodo.org/records/15396200",
+  "version": "1",
+  "zenodo_id": "10_5281_zenodo_15396200",
+  "publication_date": "2025-06-05",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

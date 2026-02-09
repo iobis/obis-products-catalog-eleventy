@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.15219322",
+  "@type": "https://schema.org/ImageObject",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Periasamy",
+      "givenName": "Rengaiyan",
+      "name": "Periasamy, Rengaiyan"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Kurian",
+      "givenName": "Palayil John",
+      "name": "Kurian, Palayil John"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Ingole",
+      "givenName": "Baban",
+      "name": "Ingole, Baban"
+    }
+  ],
+  "container_title": "Zootaxa",
+  "contentSize": "7.39 MB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "Periasamy",
+      "givenName": "Rengaiyan",
+      "name": "Periasamy, Rengaiyan"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Kurian",
+      "givenName": "Palayil John",
+      "name": "Kurian, Palayil John"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Ingole",
+      "givenName": "Baban",
+      "name": "Ingole, Baban"
+    }
+  ],
+  "dateCreated": "2025-04-15T01:05:26.459017+00:00",
+  "dateModified": "2025-04-15T01:05:26.845439+00:00",
+  "datePublished": "2025-04-09",
+  "description": "FIGURE 7. The geographic distribution for each of the six coral species in the CIR and SWIR using the Ocean Biogeographic Information System (OBIS) and WoRMS 2024.",
+  "identifier": "https://doi.org/10.5281/zenodo.15219322",
+  "isPartOf": [
+    {
+      "@id": "https://doi.org/10.11646/zootaxa.5620.2.4",
+      "@type": "ScholarlyArticle"
+    },
+    {
+      "@id": "http://publication.plazi.org/id/E12C8D77FFF52325FFFFFFDBFFE5902A",
+      "@type": "ScholarlyArticle"
+    },
+    {
+      "@id": "https://zenodo.org/record/15219306",
+      "@type": "ScholarlyArticle"
+    }
+  ],
+  "issue": "2",
+  "keywords": "Biodiversity, Taxonomy",
+  "license": null,
+  "name": "FIGURE 7 in Deep-sea corals from the seamounts of Central and Southwest Indian Ridges",
+  "page": "278-294",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "7.39 MB",
+  "url": "https://zenodo.org/records/15219322",
+  "volume": "5620",
+  "zenodo_id": "10_5281_zenodo_15219322",
+  "publication_date": "2025-04-09",
+  "category": [
+    "https://schema.org/ImageObject"
+  ]
+}

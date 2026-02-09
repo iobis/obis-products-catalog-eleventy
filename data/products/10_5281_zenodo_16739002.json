@@ -1,0 +1,110 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.16739002",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0003-0071-1745",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/035b05819",
+          "@type": "Organization",
+          "name": "University of Copenhagen"
+        },
+        {
+          "@id": "https://ror.org/02y3ad647",
+          "@type": "Organization",
+          "name": "University of Florida"
+        }
+      ],
+      "familyName": "Owens",
+      "givenName": "Hannah",
+      "name": "Owens, Hannah"
+    }
+  ],
+  "contentSize": "28.09 MB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0003-0071-1745",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/035b05819",
+          "@type": "Organization",
+          "name": "University of Copenhagen"
+        },
+        {
+          "@id": "https://ror.org/02y3ad647",
+          "@type": "Organization",
+          "name": "University of Florida"
+        }
+      ],
+      "familyName": "Owens",
+      "givenName": "Hannah",
+      "name": "Owens, Hannah"
+    }
+  ],
+  "dateCreated": "2025-08-04T15:06:58.120360+00:00",
+  "dateModified": "2025-08-04T15:06:58.316653+00:00",
+  "datePublished": "2025-08-04",
+  "description": "<p>This is the final occurrence record dataset produced for the manuscript \"Depth Matters for Marine Biodiversity\". Detailed methods for the creation of the dataset, below, have been excerpted from Appendix I: Extended Methods. Detailed citations for the occurrence datasets from which these data were derived can also be foud in Appedix I of the manuscript.</p>\n<p><span>We first assembled a list of all recognized species of fishes from the orders Scombiformes</span><span> (Betancur-R et al., 2017)</span><span>, Gadiformes, and Beloniformes by accessing FishBase</span><span> (Boettiger et al., 2012; Froese &amp; Pauly, 2017)</span><span> and the Ocean Biodiversity Information System (OBIS; </span><span>OBIS, 2022; Provoost &amp; Bosch, 2019)</span><span> through queries in R</span><span> (R Core Team, 2021)</span><span>. Species were considered Atlantic if their FishBase distribution or occurrence records on OBIS included any area within the Atlantic or Mediterranean major fishing regions as defined by the Food and Agriculture Organization of the United Nations (FAO Regions 21, 27, 31, 34, 37, 41, 47, and 48;</span><span> FAO, 2020)</span><span>. The database query script can be found on the project code repository (</span><a href=\"https://github.com/hannahlowens/3DFishRichness/blob/main/1_OccurrenceSearch.R\"><span>https://github.com/hannahlowens/3DFishRichness/blob/main/1_OccurrenceSearch.R</span></a><span>). We then curated the list of names to resolve discrepancies in taxonomy and known distributions through comparison with the Eschmeyer Catalog of Fishes</span><span> (Eschmeyer &amp; Fricke, 2015)</span><span>&nbsp;, accessed in September of 2020, as our ultimate taxonomic authority. The resulting list of species was then mapped onto the Global Biodiversity Information Facility&rsquo;s backbone taxonomy</span><span> (Chamberlain et al., 2021; GBIF.org, 2020a)</span><span> to ensure taxonomic concurrence across databases (Supplementary Table 1). The final taxonomic list was used to download occurrence records from OBIS</span><span> (OBIS, 2022)</span><span> and GBIF</span><span> (GBIF.org, 2020b)</span><span> in R through <em>robis</em></span><span> (Provoost &amp; Bosch, 2019)</span><span> and <em>occCite</em></span><span> (Owens et al., 2021)</span><span>. </span></p>\n<p><span><span>&nbsp;</span>For each species, duplicate points were removed from two- and three-dimensional species occurrence datasets separately, and inaccurate depth records were removed from 3D datasets (all records with and without depth information were retained for the 2D dataset). Depth records were based on the &ldquo;depth&rdquo; field in both the GBIF and OBIS datasets, which define the field as &ldquo;depth below the surface in meters&rdquo;. We chose this value over incorporating information from &ldquo;minimumDepthInMeters&rdquo; and &ldquo;maximumDepthInMeters&rdquo; because more records contained information from the &ldquo;depth&rdquo; field than either of the two other fields (although when these fields were both supplied, &ldquo;depth&rdquo; appears to have been often, but not always, derived by calculated the mean between minimum and maximum depth). We also initially included the &ldquo;depthAccuracy&rdquo; field from both datasets but did not ultimately use this field as it was not complete enough to be useful. Instead, we determined depth inaccuracy based on extreme statistical outliers (values greater than 2 or less than -2 when occurrence depths were centered and scaled), depths that exceeded bathymetry at occurrence coordinates, and occurrence depths far outside known depth ranges obtained from FishBase, Eschmeyer&rsquo;s Catalog of Fishes, and/or congeneric depth ranges in the dataset. Once the resulting data were mapped and curated to remove records with putatively spurious coordinates, under-sampled regions and species were augmented with data from publicly available digital museum collection databases not served through OBIS or GBIF, as well as a literature search. Finally, for datasets with more than 20 points remaining after data curation, occurrence data were downsampled to the resolution of the environmental data; that is, to 1 point per 1 degree grid cell in the 2D dataset, and to one point per depth slice per 1 degree grid cell in the 3D dataset. </span></p>\n<p>&nbsp;</p>\n<p>References:</p>\n<p>Betancur-R, R., Wiley, E. O., Arratia, G., Acero, A., Bailly, N., Miya, M., Lecointre, G., &amp; Ort&iacute;, G. (2017). Phylogenetic classification of bony fishes. <em>BMC Evolutionary Biology</em>, <em>17</em>(1), 162. <a href=\"https://doi.org/10.1186/s12862-017-0958-3\">https://doi.org/10.1186/s12862-017-0958-3</a></p>\n<p>Boettiger, C., Lang, D. T., &amp; Wainwright, P. C. (2012). rfishbase: exploring, manipulating and visualizing FishBase data from R. <em>Journal of Fish Biology</em>, <em>81</em>(6), 2030&ndash;2039. <a href=\"https://doi.org/10.1111/j.1095-8649.2012.03464.x\">https://doi.org/10.1111/j.1095-8649.2012.03464.x</a></p>\n<p>Chamberlain, S., Barve, V., McGlinn, D., Oldoni, D., Desmet, P., Geffert, L., &amp; Ram, K. (2021). <em>rgbif: Interface to the Global Biodiversity Information Facility API</em>. <a href=\"https://CRAN.R-project.org/package=rgbif\">https://CRAN.R-project.org/package=rgbif</a></p>\n<p>Eschmeyer, &amp; Fricke, W. N. &amp;. (2015). Taxonomic checklist of fish species listed in the CITES Appendices and EC Regulation 338/97 (Elasmobranchii, Actinopteri, Coelacanthi, and Dipneusti, except the genus Hippocampus). <em>Catalog of Fishes, Electronic Version</em>. Accessed September, 2020. <a href=\"https://www.calacademy.org/scientists/projects/eschmeyers-catalog-of-fishes\">https://www.calacademy.org/scientists/projects/eschmeyers-catalog-of-fishes</a></p>\n<p>FAO. (2020). <em>FAO Major Fishing Areas</em>. United Nations Fisheries and Aquaculture Division. <a href=\"https://www.fao.org/fishery/en/collection/area\">https://www.fao.org/fishery/en/collection/area</a></p>\n<p>Froese, R., &amp; Pauly, D. (2017). <em>FishBase</em>. Accessed September, 2022. www.fishbase.org</p>\n<p>GBIF.org. (2020a). <em>GBIF Backbone Taxonomy</em>. Accessed September, 2020. GBIF.org</p>\n<p>GBIF.org. (2020b). <em>GBIF Occurrence Download</em>. Accessed November, 2020. <a href=\"https://doi.org/10.15468\">https://doi.org/10.15468</a></p>\n<p>OBIS. (2020). <em>Ocean Biodiversity Information System. Intergovernmental Oceanographic Commission of UNESCO</em>. Accessed November, 2020. www.obis.org</p>\n<p>Owens, H. L., Merow, C., Maitner, B. S., Kass, J. M., Barve, V., &amp; Guralnick, R. P. (2021). occCite: Tools for querying and managing large biodiversity occurrence datasets. <em>Ecography</em>, <em>44</em>(8), 1228&ndash;1235. <a href=\"https://doi.org/10.1111/ecog.05618\">https://doi.org/10.1111/ecog.05618</a></p>\n<p>Provoost, P., &amp; Bosch, S. (2019). <em>robis: R Client to access data from the OBIS API</em>. <a href=\"https://cran.r-project.org/package=robis\">https://cran.r-project.org/package=robis</a></p>\n<p>R Core Team. (2021). <em>R: A Language and Environment for Statistical Computing</em>. <a href=\"https://www.R-project.org/\">https://www.R-project.org/</a></p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/16739002/files/FinalOccurrenceDataset.zip/content",
+      "encodingFormat": "application/zip"
+    }
+  ],
+  "editor": [
+    {
+      "@id": "https://orcid.org/0000-0003-4585-0300",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/035b05819",
+          "@type": "Organization",
+          "name": "University of Copenhagen"
+        }
+      ],
+      "familyName": "Rahbek",
+      "givenName": "Carsten",
+      "name": "Rahbek, Carsten"
+    }
+  ],
+  "funding": [
+    {
+      "funder": {
+        "@id": "00k4n6c32",
+        "@type": "Organization",
+        "name": "European Commission"
+      },
+      "identifier": "00k4n6c32::891702",
+      "name": "Elucidating the MARine DIversity GRAdient with empirical and theoretical models (891702)",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/891702",
+        "scheme": "url"
+      }
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.16739002",
+  "inLanguage": {
+    "@type": "Language",
+    "alternateName": "eng",
+    "name": "English"
+  },
+  "keywords": "Marine biology, ichthyology, macroecology, biogeography",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Occurrence Record Dataset from \"Depth Matters for Marine Biodiversity\"",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "28.09 MB",
+  "url": "https://zenodo.org/records/16739002",
+  "zenodo_id": "10_5281_zenodo_16739002",
+  "publication_date": "2025-08-04",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

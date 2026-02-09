@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.207908",
+  "@type": "https://schema.org/ImageObject",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Greaves",
+      "givenName": "Elizabeth",
+      "name": "Greaves, Elizabeth"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Wilson",
+      "givenName": "Robin",
+      "name": "Wilson, Robin"
+    }
+  ],
+  "container_title": "Zootaxa",
+  "contentSize": "149.27 KB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "Greaves",
+      "givenName": "Elizabeth",
+      "name": "Greaves, Elizabeth"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Wilson",
+      "givenName": "Robin",
+      "name": "Wilson, Robin"
+    }
+  ],
+  "dateCreated": "2016-12-17T03:05:26.687014+00:00",
+  "dateModified": "2024-08-03T21:53:51.403404+00:00",
+  "datePublished": "2011-12-31",
+  "description": "FIGURE 2. Bathymetric distribution of Australian Laonice species. L. hermaphroditica data based on the depth of Morton Bay, L. bassensis data from Blake &amp; Kudenov 1978, L. weddellia data from OBIS (http://www.obis.org.au/)",
+  "identifier": "https://doi.org/10.5281/zenodo.207908",
+  "isPartOf": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.207906",
+      "@type": "ScholarlyArticle"
+    },
+    {
+      "@id": "http://publication.plazi.org/id/FFD5FFD3295AAD7EFFFB0B5EFFE73850",
+      "@type": "ScholarlyArticle"
+    }
+  ],
+  "keywords": "Biodiversity, Taxonomy, Animalia, Annelida, Polychaeta, Spionida, Spionidae, Laonice",
+  "license": null,
+  "name": "FIGURE 2 in New Laonice species (Polychaeta: Spionidae) from western and northern Australia",
+  "page": "1-20",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "149.27 KB",
+  "url": "https://zenodo.org/records/207908",
+  "volume": "2903",
+  "zenodo_id": "10_5281_zenodo_207908",
+  "publication_date": "2011-12-31",
+  "category": [
+    "https://schema.org/ImageObject"
+  ]
+}

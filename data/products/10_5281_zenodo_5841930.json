@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.5841930",
+  "@type": "https://schema.org/SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0001-8993-6419",
+      "@type": "Person",
+      "familyName": "Hanno Seebens",
+      "name": "Hanno Seebens"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Ekin Kaplan",
+      "name": "Ekin Kaplan"
+    }
+  ],
+  "contentSize": "50.41 MB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-8993-6419",
+      "@type": "Person",
+      "familyName": "Hanno Seebens",
+      "name": "Hanno Seebens"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Ekin Kaplan",
+      "name": "Ekin Kaplan"
+    }
+  ],
+  "dateCreated": "2022-01-12T17:52:50.696843+00:00",
+  "dateModified": "2024-08-19T06:23:42.215949+00:00",
+  "datePublished": "2022-01-12",
+  "description": "<p>The DASCO workflow has been designed to integrate regional checklists of alien species occurrences and occurrence records provided by GBIF and OBIS to identify coordinate-based occurrences of alien populations. It can therefore be used to downscale information available in regional checklists and to re-allocate species occurrences to any spatial categorisation, which is provided by the user.</p>\n<p>The DASCO workflow is written in R and open access. The workflow is described together with a global case study&nbsp; in a peer-reviewed publication (see below) together with a manual.</p>\n<p>When using any components of the workflow, please cite the following publication:</p>\n<p>Seebens H, Kaplan E (2022) DASCO: A workflow to downscale alien species checklists using occurrence records and to re-allocate species distributions across realms. NeoBiota 74: 75-91. <span><a href=\"https://doi.org/10.3897/neobiota.74.81082\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.3897/neobiota.74.81082</a></span></p>",
+  "identifier": "https://doi.org/10.5281/zenodo.5841930",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "DASCO workflow for downscaling alien species checklists using occurrence records",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "50.41 MB",
+  "url": "https://zenodo.org/records/5841930",
+  "version": "v1.0.1",
+  "zenodo_id": "10_5281_zenodo_5841930",
+  "publication_date": "2022-01-12",
+  "category": [
+    "https://schema.org/SoftwareSourceCode"
+  ]
+}

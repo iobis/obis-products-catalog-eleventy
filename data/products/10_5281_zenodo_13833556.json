@@ -1,0 +1,165 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.13833556",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0002-8983-3417",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/05ect0289",
+          "@type": "Organization",
+          "name": "Institut de Ciències del Mar"
+        }
+      ],
+      "familyName": "Mestre-Tomás",
+      "givenName": "Jorge",
+      "name": "Mestre-Tomás, Jorge"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7283-291X",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/05ect0289",
+          "@type": "Organization",
+          "name": "Institut de Ciències del Mar"
+        }
+      ],
+      "familyName": "Fuster-Alonso",
+      "givenName": "Alba",
+      "name": "Fuster-Alonso, Alba"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00f3x4340",
+          "@type": "Organization",
+          "name": "Instituto Español de Oceanografía"
+        }
+      ],
+      "familyName": "Bellido",
+      "givenName": "José M.",
+      "name": "Bellido, José M."
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6235-5868",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/05ect0289",
+          "@type": "Organization",
+          "name": "Institut de Ciències del Mar"
+        }
+      ],
+      "familyName": "Coll",
+      "givenName": "Marta",
+      "name": "Coll, Marta"
+    }
+  ],
+  "contentSize": "3.07 GB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-8983-3417",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/05ect0289",
+          "@type": "Organization",
+          "name": "Institut de Ciències del Mar"
+        }
+      ],
+      "familyName": "Mestre-Tomás",
+      "givenName": "Jorge",
+      "name": "Mestre-Tomás, Jorge"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7283-291X",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/05ect0289",
+          "@type": "Organization",
+          "name": "Institut de Ciències del Mar"
+        }
+      ],
+      "familyName": "Fuster-Alonso",
+      "givenName": "Alba",
+      "name": "Fuster-Alonso, Alba"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/00f3x4340",
+          "@type": "Organization",
+          "name": "Instituto Español de Oceanografía"
+        }
+      ],
+      "familyName": "Bellido",
+      "givenName": "José M.",
+      "name": "Bellido, José M."
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6235-5868",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/05ect0289",
+          "@type": "Organization",
+          "name": "Institut de Ciències del Mar"
+        }
+      ],
+      "familyName": "Coll",
+      "givenName": "Marta",
+      "name": "Coll, Marta"
+    }
+  ],
+  "dateCreated": "2024-09-24T13:44:01.724841+00:00",
+  "dateModified": "2025-05-08T08:13:12.008858+00:00",
+  "datePublished": "2024-09-24",
+  "description": "<p>In this repository we present the code and data for the case studies in \"GLOSSA: a user-friendly R Shiny application for Bayesian machine learning analysis of marine species distribution\". The GLOSSA website can be accessed at https://jmestret.github.io/glossa/. Occurrence data for <em>Thunnus albacares</em> was obtained from the OBIS database (https://obis.org/taxon/127027), for&nbsp;<em>Caretta caretta</em> from GBIF (https://doi.org/10.15468/dl.es7562), and for <em>Siganus luridus </em>from the GreekMarineICAS geodataset (https://doi.org/10.25607/t2smha), created as part of the ALAS (Aliens in the Aegean &ndash; A Sea Under Siege) project.</p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/13833556/files/Thunnus_albacares.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/13833556/files/Siganus_luridus.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/13833556/files/LICENSE.md/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/13833556/files/Caretta_caretta.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/13833556/files/README.md/content",
+      "encodingFormat": "application/octet-stream"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.13833556",
+  "license": "https://opensource.org/licenses/MIT",
+  "name": "Supplementary material for the preprint \"GLOSSA: a user-friendly R Shiny application for Bayesian machine learning analysis of marine species distribution\"",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "3.07 GB",
+  "url": "https://zenodo.org/records/13833556",
+  "zenodo_id": "10_5281_zenodo_13833556",
+  "publication_date": "2024-09-24",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

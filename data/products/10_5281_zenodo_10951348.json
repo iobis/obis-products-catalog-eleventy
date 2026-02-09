@@ -1,0 +1,156 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.10951348",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0002-2395-7724",
+      "@type": "Person",
+      "familyName": "Serandour",
+      "givenName": "Baptiste",
+      "name": "Serandour, Baptiste"
+    }
+  ],
+  "contentSize": "50.95 KB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0002-2395-7724",
+      "@type": "Person",
+      "familyName": "Serandour",
+      "givenName": "Baptiste",
+      "name": "Serandour, Baptiste"
+    }
+  ],
+  "dateCreated": "2024-04-11T20:40:57.342320+00:00",
+  "dateModified": "2024-09-24T08:34:37.980098+00:00",
+  "datePublished": "2024-04-12",
+  "description": "<p>This repository contains seven occurrences dataset which represent the station where the species have been identified, ranging from 2000 to 2020. The environmental projections for the period 2010-2020, as well as future projection on two horizons: from 2040 to 2050 and from 2090 to 2100 on two different scenarios: SSP245 and SSP585. The occurrences have been exctracted from OBIS (https://obis.org) and the environmental projections from Bio-ORACLE (https://bio-oracle.org).</p>\n<p>&nbsp;</p>\n<p>Occurrences datasets:&nbsp;</p>\n<ul>\n<li><em>Temora longicornis</em></li>\n<li><em>Centropages hamatus</em></li>\n<li><em>Limnocalanus macrurus macrurus</em></li>\n<li><em>Evadne nordmanni</em></li>\n<li><em>Acartia tonsa</em></li>\n<li><em>Acartia longiremis</em></li>\n<li><em>Acartia bifilosa</em></li>\n</ul>\n<p>&nbsp;</p>\n<p>Projections:</p>\n<ul>\n<li>Projection Baseline 2010-2020</li>\n<li>Projection 2040-2050 SSP245</li>\n<li>Projection 2090-2100 SSP245</li>\n<li>Projection 2040-2050 SSP585</li>\n<li>Projection 2090-2100 SSP585</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/baseline_laea.grd/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/Projection_ssp245_2090_laea.grd/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/occurrences_Acartia.Acanthacartia.bifilosa_laea/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/occurrences_Temora.longicornis_laea/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/occurrences_Acartia.Acartiura.longiremis_laea/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/Projection_ssp585_2050_laea.grd/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/Projection_ssp585_2090_laea.grd/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/occurrences_Limnocalanus.macrurus.macrurus_laea/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/occurrences_Centropages.hamatus_laea/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/Projection_ssp245_2050_laea.grd/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/occurrences_Acartia.Acanthacartia.tonsa_laea/content",
+      "encodingFormat": "application/octet-stream"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10951348/files/occurrences_Evadne.nordmanni_laea/content",
+      "encodingFormat": "application/octet-stream"
+    }
+  ],
+  "editor": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/0145rpw38",
+          "@type": "Organization",
+          "name": "Stockholm Resilience Centre"
+        }
+      ],
+      "familyName": "Serandour",
+      "givenName": "Baptiste",
+      "name": "Serandour, Baptiste"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5579-0017",
+      "@type": "Person",
+      "familyName": "Jan",
+      "givenName": "Kinlan",
+      "name": "Jan, Kinlan"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Leroy",
+      "givenName": "Boris",
+      "name": "Leroy, Boris"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Ramiro-Sánchez",
+      "givenName": "Berta",
+      "name": "Ramiro-Sánchez, Berta"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Campbell",
+      "givenName": "Eleanore",
+      "name": "Campbell, Eleanore"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Winder",
+      "givenName": "Monika",
+      "name": "Winder, Monika"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Blenckner",
+      "givenName": "Thorsten",
+      "name": "Blenckner, Thorsten"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.10951348",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Projections of spatial distributions of suitable environmental conditions for key Baltic Sea zooplankton species - Data",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "50.95 KB",
+  "url": "https://zenodo.org/records/10951348",
+  "zenodo_id": "10_5281_zenodo_10951348",
+  "publication_date": "2024-04-12",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

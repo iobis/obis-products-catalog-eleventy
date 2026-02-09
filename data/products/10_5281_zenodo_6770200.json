@@ -1,0 +1,118 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.6770200",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "LMU Münich"
+        }
+      ],
+      "familyName": "Kopperud",
+      "givenName": "Bjørn Tore",
+      "name": "Kopperud, Bjørn Tore"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Chicago Field Museum"
+        }
+      ],
+      "familyName": "Lidgard",
+      "givenName": "Scott",
+      "name": "Lidgard, Scott"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Oslo"
+        }
+      ],
+      "familyName": "Liow",
+      "givenName": "Lee Hsiang",
+      "name": "Liow, Lee Hsiang"
+    }
+  ],
+  "container_title": "PeerJ",
+  "contentSize": "6.16 GB",
+  "creator": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "LMU Münich"
+        }
+      ],
+      "familyName": "Kopperud",
+      "givenName": "Bjørn Tore",
+      "name": "Kopperud, Bjørn Tore"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Chicago Field Museum"
+        }
+      ],
+      "familyName": "Lidgard",
+      "givenName": "Scott",
+      "name": "Lidgard, Scott"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Oslo"
+        }
+      ],
+      "familyName": "Liow",
+      "givenName": "Lee Hsiang",
+      "name": "Liow, Lee Hsiang"
+    }
+  ],
+  "dateCreated": "2022-06-28T10:19:14.625949+00:00",
+  "dateModified": "2022-06-28T13:49:26.246561+00:00",
+  "datePublished": "2022-06-28",
+  "description": "<p>Data and code supplement to our article revised submission to PeerJ.</p>\n\n<p>&nbsp;</p>\n\n<p>The file is compressed using standard&nbsp;zip.&nbsp;The uncompressed size is about 50 GB. There is a readme.md in the archive, which explains the structure of the contents.</p>\n\n<p>&nbsp;</p>\n\n<p>Abstract:</p>\n\n<p>We use natural language processing (NLP) to retrieve location data for cheilostome bryozoan species (text-mined occurrences [TMO]) in an automated procedure. We compare these results with data combined from two major public databases (DB): the Ocean Biogeographic Information System (OBIS), and the Global Biodiversity Information Facility (GBIF). Using DB and TMO data separately and in combination, we present latitudinal species richness curves using standard estimators (Chao2 and the Jackknife) and range-through approaches. Our combined DB and TMO species richness curves quantitatively document a bimodal global latitudinal diversity gradient for extant cheilostomes for the first time, with peaks in the temperate zones. 79% of the georeferenced species we retrieved from TMO (N = 1408) and DB (N = 4549) are non-overlapping. Despite clear indications that global location data compiled for cheilostomes should be improved with concerted effort, our study supports the view that many marine latitudinal species richness patterns deviate from the canonical latitudinal diversity gradient (LDG). Moreover, combining online biodiversity databases with automated information retrieval from the published literature is a promising avenue for expanding taxon-location datasets.</p>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/6770200/files/locations_supplement_28jun2022.zip/content",
+      "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/6770200/files/locations_supplement.tar.lz4/content",
+      "encodingFormat": "application/octet-stream"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.6770200",
+  "inLanguage": {
+    "@type": "Language",
+    "alternateName": "eng",
+    "name": "English"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Enhancing georeferenced biodiversity inventories: automated information extraction from literature records reveal the gaps",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "6.16 GB",
+  "url": "https://zenodo.org/records/6770200",
+  "zenodo_id": "10_5281_zenodo_6770200",
+  "publication_date": "2022-06-28",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

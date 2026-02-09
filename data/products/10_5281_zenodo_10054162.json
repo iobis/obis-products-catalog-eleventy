@@ -1,0 +1,105 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.10054162",
+  "@type": "https://schema.org/Dataset",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0001-8993-6419",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/033eqas34",
+          "@type": "Organization",
+          "name": "University of Giessen"
+        },
+        {
+          "@id": "https://ror.org/00xmqmx64",
+          "@type": "Organization",
+          "name": "Senckenberg Society for Nature Research"
+        }
+      ],
+      "familyName": "Seebens",
+      "givenName": "Hanno",
+      "name": "Seebens, Hanno"
+    }
+  ],
+  "contentSize": "470.17 MB",
+  "creator": [
+    {
+      "@id": "https://orcid.org/0000-0001-8993-6419",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/033eqas34",
+          "@type": "Organization",
+          "name": "University of Giessen"
+        },
+        {
+          "@id": "https://ror.org/00xmqmx64",
+          "@type": "Organization",
+          "name": "Senckenberg Society for Nature Research"
+        }
+      ],
+      "familyName": "Seebens",
+      "givenName": "Hanno",
+      "name": "Seebens, Hanno"
+    }
+  ],
+  "dateCreated": "2023-10-31T13:11:19.780123+00:00",
+  "dateModified": "2026-01-29T20:19:43.661968+00:00",
+  "datePublished": "2023-10-31",
+  "description": "<p>This data set contains coordinate records of alien (i.e., non-native) species populations worldwide and aggregated checklists of alien species for individual regions. The regions consists of non-overlapping polygons representing countries, sub-national or coastal marine ecoregions.&nbsp;</p>\n<p>The data set was produced by applying the DASCO workflow to the SInAS dataset (version 2.5; https://doi.org/10.5281/zenodo.18220953). The workflow imports checklists of alien species such as those stored in SInAS, and extracts coordinates for the alien regions (according to SInAS) from GBIF and OBIS. After cleaning and thinning the coordinates, the workflow exports a list of coordinates of alien populations for all species included in SInAS and with records on GBIF or OBIS.</p>\n<p>The most recent version of the workflow can be found here: https://github.com/hseebens/DASCOworkflow</p>\n<p>When using the workflow or the resulting datasets, please cite the following:&nbsp;</p>\n<div>\n<div>Seebens H, Kaplan E (2022) DASCO: A workflow to downscale alien species checklists using occurrence records and to re-allocate species distributions across realms. NeoBiota 74: 75&ndash;91. <a href=\"https://doi.org/10.3897/neobiota.74.81082\">https://doi.org/10.3897/neobiota.74.81082</a></div>\n</div>",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10054162/files/DASCO_AlienRegions_SInAS_2.5.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10054162/files/DASCO_TaxonHabitats_SInAS_2.5.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10054162/files/DASCO_AlienCoordinates_SInAS_2.5.gz/content",
+      "encodingFormat": "application/gzip"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10054162/files/GBIF_SpeciesKeys_SInAS_2.5.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10054162/files/OBIS_SpeciesKeys_SInAS_2.5.csv/content",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://zenodo.org/api/records/10054162/files/DASCO_ListOriginalGBIFData_keys_SInAS_2.5.xlsx/content",
+      "encodingFormat": "application/octet-stream"
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.10054162",
+  "inLanguage": {
+    "@type": "Language",
+    "alternateName": "eng",
+    "name": "English"
+  },
+  "keywords": "alien, invasive, non-native, species, taxa, global, down-scaling, checklists, workflow",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Coordinates and checklists of alien species populations as obtained from the DASCO workflow and the SInAS data set",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "470.17 MB",
+  "url": "https://zenodo.org/records/10054162",
+  "version": "SInAS 2.5",
+  "zenodo_id": "10_5281_zenodo_10054162",
+  "publication_date": "2023-10-31",
+  "category": [
+    "https://schema.org/Dataset"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.12713667",
+  "@type": "https://schema.org/ImageObject",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Pruvost",
+      "givenName": "Patrice",
+      "name": "Pruvost, Patrice"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Causse",
+      "givenName": "Romain",
+      "name": "Causse, Romain"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Bailly",
+      "givenName": "Nicolas",
+      "name": "Bailly, Nicolas"
+    }
+  ],
+  "container_title": "Cybium",
+  "contentSize": "2.24 MB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "Pruvost",
+      "givenName": "Patrice",
+      "name": "Pruvost, Patrice"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Causse",
+      "givenName": "Romain",
+      "name": "Causse, Romain"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Bailly",
+      "givenName": "Nicolas",
+      "name": "Bailly, Nicolas"
+    }
+  ],
+  "dateCreated": "2024-07-10T23:30:31.846430+00:00",
+  "dateModified": "2024-10-30T19:47:07.974731+00:00",
+  "datePublished": "2023-04-20",
+  "description": "Figure 12. – MNHN-FishBase collaboration and dataflow since 1999. A: Data flow from 1999 to 2002; (1): checking taxonomic data uses FishBase-ECoF and GICIM; (2): data flow from GICIM to FishBase; and (3): from FishBase to GBIF, OBIS and FishNet. B: Dataflow since 2002; (4): direct link from GICIM to GBIF, OBIS and FishNet; (5): link from GBIF to FishBase; and (6): Taxonomic workflow, checking taxonomic data from FishBase-GICIM-ECoF to WORMS. [An additional link could be added from FishBase to COL, but it is independent from GICIM.]",
+  "identifier": "https://doi.org/10.5281/zenodo.12713667",
+  "isPartOf": [
+    {
+      "@id": "https://doi.org/10.26028/cybium/2023-026",
+      "@type": "ScholarlyArticle"
+    },
+    {
+      "@id": "https://zenodo.org/record/12713643",
+      "@type": "ScholarlyArticle"
+    }
+  ],
+  "issue": "3",
+  "keywords": "Biodiversity, Taxonomy",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Figure 12 in Historical review of the computerization of the MNHN Fish Collection and its collaboration with FishBase",
+  "page": "225-248",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "2.24 MB",
+  "url": "https://zenodo.org/records/12713667",
+  "volume": "47",
+  "zenodo_id": "10_5281_zenodo_12713667",
+  "publication_date": "2023-04-20",
+  "category": [
+    "https://schema.org/ImageObject"
+  ]
+}

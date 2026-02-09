@@ -1,0 +1,95 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.11069027",
+  "@type": "https://schema.org/SoftwareSourceCode",
+  "author": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "LU Matemātikas un informātikas institūts"
+        }
+      ],
+      "familyName": "Grasmanis",
+      "givenName": "Mikus",
+      "name": "Grasmanis, Mikus"
+    },
+    {
+      "@type": "Person",
+      "familyName": "LeldeLace",
+      "name": "LeldeLace"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "LU Matemātikas un informātikas institūts"
+        }
+      ],
+      "familyName": "Kārlis Čerāns",
+      "name": "Kārlis Čerāns"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Uldis Bojārs",
+      "name": "Uldis Bojārs"
+    }
+  ],
+  "contentSize": "329.06 KB",
+  "creator": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "LU Matemātikas un informātikas institūts"
+        }
+      ],
+      "familyName": "Grasmanis",
+      "givenName": "Mikus",
+      "name": "Grasmanis, Mikus"
+    },
+    {
+      "@type": "Person",
+      "familyName": "LeldeLace",
+      "name": "LeldeLace"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "LU Matemātikas un informātikas institūts"
+        }
+      ],
+      "familyName": "Kārlis Čerāns",
+      "name": "Kārlis Čerāns"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Uldis Bojārs",
+      "name": "Uldis Bojārs"
+    }
+  ],
+  "dateCreated": "2024-04-25T21:21:40.669393+00:00",
+  "dateModified": "2024-04-25T21:48:27.765297+00:00",
+  "datePublished": "2024-04-25",
+  "description": "<p>A version compatible with Schemas24 toolset (including releases of OBIS Schema Explorer and ViziQuer)</p>",
+  "identifier": "https://doi.org/10.5281/zenodo.11069027",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "LUMII-Syslab/data-shape-server: Schemas24 format/toolset",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "329.06 KB",
+  "url": "https://zenodo.org/records/11069027",
+  "version": "v0.2.1",
+  "zenodo_id": "10_5281_zenodo_11069027",
+  "publication_date": "2024-04-25",
+  "category": [
+    "https://schema.org/SoftwareSourceCode"
+  ]
+}

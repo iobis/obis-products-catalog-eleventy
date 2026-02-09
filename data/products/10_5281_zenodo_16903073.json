@@ -1,0 +1,58 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.16903073",
+  "@type": "https://schema.org/ImageObject",
+  "author": [
+    {
+      "@id": "https://orcid.org/0009-0004-7253-6346",
+      "@type": "Person",
+      "familyName": "Michael Bommerer",
+      "name": "Michael Bommerer"
+    }
+  ],
+  "creator": [
+    {
+      "@id": "https://orcid.org/0009-0004-7253-6346",
+      "@type": "Person",
+      "familyName": "Michael Bommerer",
+      "name": "Michael Bommerer"
+    }
+  ],
+  "dateCreated": "2025-08-19T13:50:44.030630+00:00",
+  "dateModified": "2025-08-31T12:39:21.110097+00:00",
+  "datePublished": "2025-08-19",
+  "description": "<p>This figure illustrates the global distribution of Monoplex nicobaricus (R&ouml;ding, 1798), based on 4,245 georeferenced occurrence records compiled from GBIF, OBIS an iNaturalist. The species exhibits a broad Indo-Pacific distribution extending into the tropical Atlantic, with verified records from the Canary Islands. Occurrence data were standardized, quality-checked, and integrated into a Geographic Information System (GIS) framework, with spatial analyses and map production produced in Mapbox Studio. The figure&nbsp;forms part of the manuscript &ldquo;Monoplex nicobaricus (R&ouml;ding, 1798) in the Canary Islands: A Comprehensive Study of Morphology,&nbsp;Ecology, and Behavior&rdquo; and is presented here as a stand-alone supplementary reference.</p>",
+  "identifier": "https://doi.org/10.5281/zenodo.16903073",
+  "inLanguage": {
+    "@type": "Language",
+    "alternateName": "eng",
+    "name": "English"
+  },
+  "isPartOf": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.16891667",
+      "@type": "ImageObject"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.16897686",
+      "@type": "ImageObject"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.16902512",
+      "@type": "ImageObject"
+    }
+  ],
+  "keywords": "Monoplex nicobaricus, cymatiidae, Biogeography, Global Distribution, Gis digital format, Gis digital technique, Gis digital system, Occurrence data",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Figure 1.1 of Monoplex nicobaricus (Röding, 1798) in the Canary Islands: A Comprehensive Study of Morphology, Ecology, and Behavior",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Institute for Molluscan Systematics. Research Group Cymatiidae, Tenerife, Canary Islands, Spain"
+  },
+  "url": "https://zenodo.org/records/16903073",
+  "zenodo_id": "10_5281_zenodo_16903073",
+  "publication_date": "2025-08-19",
+  "category": [
+    "https://schema.org/ImageObject"
+  ]
+}

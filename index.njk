@@ -1,0 +1,122 @@
+---
+layout: base.njk
+title: Browse Products
+permalink: /
+---
+
+<header>
+    <h1>OBIS Products Catalog</h1>
+    <p>Discover products and resources built on OBIS data</p>
+</header>
+
+<section class="stats">
+    <div class="grid">
+        <div>
+            <strong>{{ collections.products.length }}</strong> Products
+        </div>
+        <div>
+            <strong>{{ collections.byNode.length }}</strong> OBIS Nodes
+        </div>
+        <div>
+            <strong>{{ collections.byInstitution.length }}</strong> Institutions
+        </div>
+    </div>
+</section>
+
+<section class="search-filter">
+    <div class="search-container">
+        <div id="pagefind-search"></div>
+        <details class="search-help">
+            <summary>Search tips</summary>
+            <div class="search-help-content">
+                <p><strong>How to search:</strong></p>
+                <ul>
+                    <li><strong>Multiple words:</strong> Finds pages with ALL words (e.g., marine biodiversity)</li>
+                    <li><strong>Phrases:</strong> Use quotes for exact matches (e.g., "Appeltans" or "species distribution")</li>
+                    <li><strong>Filters:</strong> Use checkboxes below to filter by OBIS node or institution</li>
+                </ul>
+                <p><strong>What's indexed:</strong> Product titles, descriptions, authors, keywords, and all metadata</p>
+            </div>
+        </details>
+    </div>
+    
+    <details>
+        <summary>Filter by OBIS Node</summary>
+        <div id="node-filters" class="filter-group">
+            {% for node in collections.byNode %}
+            <label>
+                <input type="checkbox" class="node-filter" value="{{ node.id }}" data-filter-type="include">
+                {{ node.name }} ({{ node.products.length }})
+            </label>
+            {% endfor %}
+        </div>
+    </details>
+    
+    <details>
+        <summary>Filter by Institution</summary>
+        <div id="institution-filters" class="filter-group">
+            {% for inst in collections.byInstitution %}
+            <label>
+                <input type="checkbox" class="institution-filter" value="{{ inst.id }}" data-filter-type="include">
+                {{ inst.name }} ({{ inst.products.length }})
+            </label>
+            {% endfor %}
+        </div>
+    </details>
+
+    <details>
+        <summary>Filter by Category</summary>
+        <div id="category-filters" class="filter-group">
+            {% for cat in collections.byCategory %}
+            <label>
+                <input type="checkbox" class="category-filter" value="{{ cat.name }}" data-filter-type="include">
+                {{ cat.name }} ({{ cat.products.length }})
+            </label>
+            {% endfor %}
+        </div>
+    </details>
+    
+</section>
+
+<section id="results">
+    <p id="results-count">Showing {{ collections.products.length }} products</p>
+    
+    <div id="products-list">
+        {% for product in collections.products %}
+        <article class="product-card" 
+                 data-name="{% if product.name %}{{ product.name if product.name is string else '' | lower }}{% endif %}"
+                 data-description="{% if product.description %}{{ product.description if product.description is string else '' | striptags | lower }}{% endif %}"
+                 data-category="{% if product.category %}{% if product.category is string %}{{ product.category }}{% else %}{% for cat in product.category %}{{ cat }}{% if not loop.last %},{% endif %}{% endfor %}{% endif %}{% endif %}"
+                 data-nodes="{% if product.obis_nodes %}{% for node in product.obis_nodes %}{{ node.id }}{% if not loop.last %},{% endif %}{% endfor %}{% endif %}"
+                 data-institutions="{% if product.institutions %}{% for inst in product.institutions %}{{ inst.id }}{% if not loop.last %},{% endif %}{% endfor %}{% endif %}">
+            <header>
+                <h3><a href="{{ product.url }}">{{ product.name }}</a></h3>
+            </header>
+            
+            {% if product.description %}
+            <p>{{ product.description | striptags | truncate(200) }}</p>
+            {% endif %}
+            
+            <footer>
+                <small>
+                    {% if product.author and product.author.length > 0 %}
+                        {{ product.author[0].name }}{% if product.author.length > 1 %} et al.{% endif %}
+                        {% if product.datePublished %} | {% endif %}
+                    {% endif %}
+                    {% if product.datePublished %}
+                        {{ product.datePublished | readableDate }}
+                    {% endif %}
+                </small>
+                
+                {% if product.obis_nodes and product.obis_nodes.length > 0 %}
+                <div class="tags">
+                    {% for node in product.obis_nodes %}
+                        <span class="tag node-tag">{{ node.name }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </footer>
+        </article>
+        {% endfor %}
+    </div>
+</section>

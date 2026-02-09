@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: Institutions
+permalink: /institutions/
+---
+
+<h1>Institutions</h1>
+
+<p>Browse products by contributing institution.</p>
+
+{% if collections.byInstitution.length > 0 %}
+<div class="grid">
+    {% for inst in collections.byInstitution %}
+    <article>
+        <header>
+            <h3><a href="/institutions/{{ inst.id }}/">{{ inst.name }}</a></h3>
+        </header>
+        <p>{{ inst.products.length }} product{% if inst.products.length != 1 %}s{% endif %}</p>
+    </article>
+    {% endfor %}
+</div>
+{% else %}
+<p><em>No institution associations have been defined yet. Add them in <code>data/mappings.yaml</code>.</em></p>
+{% endif %}

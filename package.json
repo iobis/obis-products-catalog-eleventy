@@ -1,0 +1,15 @@
+{
+  "name": "obis-products-catalog",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "eleventy && pagefind --site _site",
+    "serve": "eleventy --serve",
+    "serve:pagefind": "eleventy && pagefind --site _site && npx serve _site",
+    "harvest": "python scripts/harvest.py"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "luxon": "^3.4.4",
+    "pagefind": "^1.0.0"
+  }
+}

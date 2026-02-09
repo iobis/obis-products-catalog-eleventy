@@ -1,0 +1,75 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.17177436",
+  "@type": "https://schema.org/CreativeWork",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Mestre-Tomás",
+      "givenName": "Jorge",
+      "name": "Mestre-Tomás, Jorge"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Fuster-Alonso",
+      "givenName": "Alba",
+      "name": "Fuster-Alonso, Alba"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Bellido",
+      "givenName": "José M.",
+      "name": "Bellido, José M."
+    },
+    {
+      "@type": "Person",
+      "familyName": "Coll",
+      "givenName": "Marta",
+      "name": "Coll, Marta"
+    }
+  ],
+  "contentSize": "3.62 GB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "Mestre-Tomás",
+      "givenName": "Jorge",
+      "name": "Mestre-Tomás, Jorge"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Fuster-Alonso",
+      "givenName": "Alba",
+      "name": "Fuster-Alonso, Alba"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Bellido",
+      "givenName": "José M.",
+      "name": "Bellido, José M."
+    },
+    {
+      "@type": "Person",
+      "familyName": "Coll",
+      "givenName": "Marta",
+      "name": "Coll, Marta"
+    }
+  ],
+  "dateCreated": "2025-09-22T15:03:12.835654+00:00",
+  "dateModified": "2025-09-22T15:03:13.479242+00:00",
+  "datePublished": "2025-09-22",
+  "description": "<p>This repository provides the supplementary code and data for the three worked examples presented in the manuscript \"<em>GLOSSA: a user-friendly R Shiny application for Bayesian machine learning analysis of marine species distribution</em>\". The GLOSSA website can be accessed at <a href=\"https://imares-group.github.io/glossa/\">https://imares-group.github.io/glossa/</a>.&nbsp;Occurrence data for&nbsp;<em>Thunnus albacares</em> are available from OBIS (<a href=\"https://obis.org/taxon/127027\">https://obis.org/taxon/127027</a>), for <em>Caretta caretta</em> from GBIF (<a href=\"https://doi.org/10.15468/dl.es7562\">https://doi.org/10.15468/dl.es7562</a>), and for <em>Siganus luridus </em>from the GreekMarineICAS geodataset (<a href=\"https://doi.org/10.25607/t2smha\">https://doi.org/10.25607/t2smha</a>).</p>",
+  "identifier": "https://doi.org/10.5281/zenodo.17177436",
+  "name": "Supplementary materials for \"GLOSSA: a user-friendly R Shiny application for Bayesian machine learning analysis of marine species distribution\"",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "3.62 GB",
+  "url": "https://zenodo.org/records/17177436",
+  "zenodo_id": "10_5281_zenodo_17177436",
+  "publication_date": "2025-09-22",
+  "category": [
+    "https://schema.org/CreativeWork"
+  ]
+}

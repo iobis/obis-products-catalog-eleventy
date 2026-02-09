@@ -1,0 +1,122 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.76sv3",
+  "name": "The role of a dominant predator in shaping biodiversity over space and time in a marine ecosystem",
+  "description": "1. Exploitation of living marine resources has resulted in major changes to populations of targeted species and functional groups of large-bodied species in the ocean. However, the effects of overfishing and collapse of large top predators on the broad-scale biodiversity of oceanic ecosystems remain largely unexplored. 2. Populations of the Atlantic cod (Gadus morhua) were overfished and several collapsed in the early 1990s across Atlantic Canada, providing a unique opportunity to study potential ecosystem-level effects of the reduction of a dominant predator on fish biodiversity, and to identify how such effects might interact with other environmental factors, such as changes in climate, over time. 3. We combined causal modelling with model selection and multimodel inference to analyse 41 years of fishery-independent survey data (1970–2010) and quantify ecosystem-level effects of overfishing and climate variation on the biodiversity of fishes across a broad area (172 000 km2) of the Sc... ELLINGSEN - Role of cod in shaping beta diversityData consisted of all commercial and non-commercial fish species sampled by the DFO annual summer (July) research bottom trawl surveys of the Scotian Shelf, Northwest Atlantic over a period of 41 years (1970-2010). The data were extracted from the Ocean Biogeographic Information System (OBIS) database. All analyses were done using R.ELLINGSEN - Role of cod in shaping beta-diversity.csv ",
+  "url": "http://datadryad.org/dataset/doi%253A10.5061%252Fdryad.76sv3",
+  "contentUrl": "http://datadryad.org/downloads/file_stream/56874",
+  "identifier": "https://doi.org/10.5061/dryad.76sv3",
+  "version": 1,
+  "isAccessibleForFree": true,
+  "keywords": [
+    "path analysis",
+    "top predator",
+    "causal model",
+    "collapse of cod",
+    "relative abundance"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Kari Elsa Ellingsen",
+      "givenName": "Kari Elsa",
+      "familyName": "Ellingsen",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/04aha0598",
+        "name": "Norwegian Institute for Nature Research"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Marti J. Anderson",
+      "givenName": "Marti J.",
+      "familyName": "Anderson",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/052czxv31",
+        "name": "Massey University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Nancy L. Shackell",
+      "givenName": "Nancy L.",
+      "familyName": "Shackell",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/03bz9t645",
+        "name": "Bedford Institute of Oceanography"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Torkild Tveraa",
+      "givenName": "Torkild",
+      "familyName": "Tveraa",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/04aha0598",
+        "name": "Norwegian Institute for Nature Research"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Nigel G. Yoccoz",
+      "givenName": "Nigel G.",
+      "familyName": "Yoccoz",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/00wge5k78",
+        "name": "UiT The Arctic University of Norway"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Kenneth T. Frank",
+      "givenName": "Kenneth T.",
+      "familyName": "Frank",
+      "affiliation": {
+        "@type": "Organization",
+        "sameAs": "https://ror.org/03bz9t645",
+        "name": "Bedford Institute of Oceanography"
+      }
+    }
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/zip",
+    "contentUrl": "http://datadryad.org/api/v2/datasets/doi%253A10.5061%252Fdryad.76sv3/download"
+  },
+  "temporalCoverage": [
+    "2015-05-12 09:47:35 UTC",
+    "2016-05-12 00:00:00 UTC",
+    "2016-05-12 00:00:00 UTC"
+  ],
+  "spatialCoverage": [
+    "Scotian Shelf",
+    "Northwest Atlantic"
+  ],
+  "citation": "http://doi.org/10.1111/1365-2656.12396",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "license": "https://spdx.org/licenses/CC0-1.0.html"
+  },
+  "publisher": {
+    "@id": "https://datadryad.org",
+    "@type": "Organization",
+    "legalName": "Dryad Data Platform",
+    "name": "Dryad",
+    "url": "https://datadryad.org"
+  },
+  "provider": {
+    "@id": "https://datadryad.org"
+  },
+  "zenodo_id": "10_5061_dryad_76sv3",
+  "publication_date": "",
+  "category": [
+    "Dataset"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.11109585",
+  "@type": "https://schema.org/SoftwareSourceCode",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "aigaromane",
+      "name": "aigaromane"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Mikus Grasmanis",
+      "name": "Mikus Grasmanis"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "LU Matemātikas un informātikas institūts"
+        }
+      ],
+      "familyName": "Kārlis Čerāns",
+      "name": "Kārlis Čerāns"
+    }
+  ],
+  "contentSize": "52.32 MB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "aigaromane",
+      "name": "aigaromane"
+    },
+    {
+      "@type": "Person",
+      "familyName": "Mikus Grasmanis",
+      "name": "Mikus Grasmanis"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "LU Matemātikas un informātikas institūts"
+        }
+      ],
+      "familyName": "Kārlis Čerāns",
+      "name": "Kārlis Čerāns"
+    }
+  ],
+  "dateCreated": "2024-05-03T12:47:33.870826+00:00",
+  "dateModified": "2024-05-03T12:47:34.070674+00:00",
+  "datePublished": "2024-05-03",
+  "description": "OBIS Schema Extractor",
+  "identifier": "https://doi.org/10.5281/zenodo.11109585",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "LUMII-Syslab/OBIS-SchemaExtractor: V2.4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "52.32 MB",
+  "url": "https://zenodo.org/records/11109585",
+  "version": "V2.4",
+  "zenodo_id": "10_5281_zenodo_11109585",
+  "publication_date": "2024-05-03",
+  "category": [
+    "https://schema.org/SoftwareSourceCode"
+  ]
+}

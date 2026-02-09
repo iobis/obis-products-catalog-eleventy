@@ -1,0 +1,148 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.1254293",
+  "@type": "https://schema.org/PresentationDigitalDocument",
+  "author": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IMAR, Universidade dos Açores, Marine and Environmental Sciences Centre (MARE), Universidade dos Açores, Departamento de Oceanografia e Pesca"
+        }
+      ],
+      "familyName": "González-Irusta",
+      "givenName": "José Manuel",
+      "name": "González-Irusta, José Manuel"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IMAR, Universidade dos Açores, Marine and Environmental Sciences Centre (MARE), Universidade dos Açores, Departamento de Oceanografia e Pesca"
+        }
+      ],
+      "familyName": "Domínguez-Carrió",
+      "givenName": "Carlos",
+      "name": "Domínguez-Carrió, Carlos"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6446-6342",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IMAR, Universidade dos Açores, Marine and Environmental Sciences Centre (MARE), Universidade dos Açores, Departamento de Oceanografia e Pesca"
+        }
+      ],
+      "familyName": "Carreiro-Silva",
+      "givenName": "Marina",
+      "name": "Carreiro-Silva, Marina"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2393-4773",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IMAR, Universidade dos Açores, Marine and Environmental Sciences Centre (MARE), Universidade dos Açores, Departamento de Oceanografia e Pesca"
+        }
+      ],
+      "familyName": "Morato",
+      "givenName": "Telmo",
+      "name": "Morato, Telmo"
+    }
+  ],
+  "contentSize": "1.05 GB",
+  "creator": [
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IMAR, Universidade dos Açores, Marine and Environmental Sciences Centre (MARE), Universidade dos Açores, Departamento de Oceanografia e Pesca"
+        }
+      ],
+      "familyName": "González-Irusta",
+      "givenName": "José Manuel",
+      "name": "González-Irusta, José Manuel"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IMAR, Universidade dos Açores, Marine and Environmental Sciences Centre (MARE), Universidade dos Açores, Departamento de Oceanografia e Pesca"
+        }
+      ],
+      "familyName": "Domínguez-Carrió",
+      "givenName": "Carlos",
+      "name": "Domínguez-Carrió, Carlos"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6446-6342",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IMAR, Universidade dos Açores, Marine and Environmental Sciences Centre (MARE), Universidade dos Açores, Departamento de Oceanografia e Pesca"
+        }
+      ],
+      "familyName": "Carreiro-Silva",
+      "givenName": "Marina",
+      "name": "Carreiro-Silva, Marina"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2393-4773",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IMAR, Universidade dos Açores, Marine and Environmental Sciences Centre (MARE), Universidade dos Açores, Departamento de Oceanografia e Pesca"
+        }
+      ],
+      "familyName": "Morato",
+      "givenName": "Telmo",
+      "name": "Morato, Telmo"
+    }
+  ],
+  "dateCreated": "2018-05-30T12:32:58.113128+00:00",
+  "dateModified": "2024-08-02T15:45:38.565141+00:00",
+  "datePublished": "2018-05-28",
+  "description": "<p>ATLAS work package 3 presentation at ATLAS 3rd General Assembly.</p>\n\n<p>&nbsp;</p>\n\n<p>Climate change is already a reality which is affecting marine species and habitats, although the nature and extent of species responses are still unclear (Pereira et al., 2010). The changes will affect even the most isolated ecosystems in earth, such as the deep-sea ecosystems. Recent works have warned about a possible fast acidification of the deep ocean in the next three decades which could seriously threat the survival of cold-water coral species (Perez et al., 2018). Furthermore, a growing number of fish species are shifting in mean latitude, depth or both (Perry et al., 2005). In this context, to identify species vulnerability to climate change as well as predict the most possible response to future scenarios is a key step in order to preserve this species for the future. In this work we have analysed how climate change will affect the distribution of 12 different deep-sea species (6 cold-water coral species and 6 fishes) using Species Distribution Models (SDMs). These models are correlative approaches which combine discrete distribution data and full spatial coverage of environmental information to explain and predict patterns of distribution (Elith and Leathwick, 2009). To build the models we have used the Ocean Biogeographic Information System (OBIS) database to download presence records of the 12 species and a set of terrain (static in time) and environmental layers (for present and future scenarios). The models for the 12 species showed an excellent or good performance according to the values of AUC and kappa. Depth was the most important variable in 11 of the 12 analysed species although environmental variables such as temperature, aragonite/calcite concentration, pH and the export flux of Particle Organic Carbon (POC) to seafloor were also important for most of the species. The other two terrain variables (slope and BPI) show none or very low contribution values for most of the models. Temperature and occasionally POC flux were the second most important variable for the fish species whereas aragonite (scleractinians) or calcite (gorgonians) concentration replace POC flux in coral species. The pH was also important for the gorgonians species but not for the scleractinians. MaxEnt results predict that the fish species including in our analyses could expand their distribution range to higher latitudes or deeper depths towards the year 2100. Coral species and especially gorgonians are according to our models the most vulnerable species to climate change in North Atlantic Ocean, with severe habitat loss in the 3 studies species. Lophelia pertusa also will suffer an important habitat loss according to our models. Because of possible biases in the presence records, uncertainties in the future climate scenarios, lack of important explanatory variables and coarse resolution caution must be exercised when interpreting these results.</p>",
+  "funding": [
+    {
+      "funder": {
+        "@id": "00k4n6c32",
+        "@type": "Organization",
+        "name": "European Commission"
+      },
+      "identifier": "00k4n6c32::678760",
+      "name": "A Trans-AtLantic Assessment and deep-water ecosystem-based Spatial management plan for Europe (678760)",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/678760",
+        "scheme": "url"
+      }
+    }
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.1254293",
+  "inLanguage": {
+    "@type": "Language",
+    "alternateName": "eng",
+    "name": "English"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "name": "Species distribution models under future climate scenarios",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "1.05 GB",
+  "url": "https://zenodo.org/records/1254293",
+  "zenodo_id": "10_5281_zenodo_1254293",
+  "publication_date": "2018-05-28",
+  "category": [
+    "https://schema.org/PresentationDigitalDocument"
+  ]
+}

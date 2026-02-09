@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://doi.org/10.5281/zenodo.3338213",
+  "@type": "https://schema.org/SoftwareSourceCode",
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Samuel",
+      "name": "Samuel"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UNESCO"
+        }
+      ],
+      "familyName": "Pieter Provoost",
+      "name": "Pieter Provoost"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UNESCO-IOC/OBIS"
+        }
+      ],
+      "familyName": "Ward Appeltans",
+      "name": "Ward Appeltans"
+    }
+  ],
+  "contentSize": "2.39 MB",
+  "creator": [
+    {
+      "@type": "Person",
+      "familyName": "Samuel",
+      "name": "Samuel"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UNESCO"
+        }
+      ],
+      "familyName": "Pieter Provoost",
+      "name": "Pieter Provoost"
+    },
+    {
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UNESCO-IOC/OBIS"
+        }
+      ],
+      "familyName": "Ward Appeltans",
+      "name": "Ward Appeltans"
+    }
+  ],
+  "dateCreated": "2019-07-16T14:29:35.296911+00:00",
+  "dateModified": "2020-01-25T07:22:20.621553+00:00",
+  "datePublished": "2019-07-16",
+  "description": "<p>Fixes the OBIS API URLs.</p>",
+  "identifier": "https://doi.org/10.5281/zenodo.3338213",
+  "license": null,
+  "name": "iobis/obistools: version 0.0.9",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "size": "2.39 MB",
+  "url": "https://zenodo.org/records/3338213",
+  "version": "v0.0.9",
+  "zenodo_id": "10_5281_zenodo_3338213",
+  "publication_date": "2019-07-16",
+  "category": [
+    "https://schema.org/SoftwareSourceCode"
+  ]
+}
