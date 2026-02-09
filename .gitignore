@@ -1,0 +1,39 @@
+# Build output
+_site/
+node_modules/
+
+# Eleventy cache
+.eleventy-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+npm-debug.log*
+*.log
+
+# Keep data committed (for faster builds)
+# Uncomment these lines if you want to regenerate data on every build instead:
+# data/products/*.json
+# data/obis-nodes.json
+# data/obis-institutes.json
