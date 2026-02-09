@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   # Run on push to main
   push:
-    branches: [main]
+    branches: [master]
   
   # Run on schedule (weekly on Sundays at 2am UTC)
   schedule:
