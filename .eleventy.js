@@ -181,6 +181,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/obis-products-catalog-eleventy/",
     dir: {
       input: ".",
       output: "_site",
