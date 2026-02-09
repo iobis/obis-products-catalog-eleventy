@@ -234,12 +234,12 @@
       "lat": 51.2332828,
       "feeds": [
         {
-          "id": "34791cdf-c885-4854-8a13-c7382ea09ee9",
-          "url": "https://ipt.vliz.be/upload/rss.do"
-        },
-        {
           "id": "ae5b74ae-df1f-42c9-882d-e7b282974ed4",
           "url": null
+        },
+        {
+          "id": "34791cdf-c885-4854-8a13-c7382ea09ee9",
+          "url": "https://ipt.vliz.be/upload/rss.do"
         },
         {
           "id": "7bdabdca-cce9-4fe4-a6ea-f6d512439956",
@@ -250,12 +250,12 @@
           "url": "https://ipt.vliz.be/cnr-isp/rss.do"
         },
         {
-          "id": "2b52ff52-bd4f-4800-97b6-882bc7698a22",
-          "url": "https://ipt.inbo.be/rss.do"
-        },
-        {
           "id": "68f0ea43-2af7-4ef5-a5bc-be43fbf003d8",
           "url": "https://ipt.vliz.be/bodc/rss.do"
+        },
+        {
+          "id": "2b52ff52-bd4f-4800-97b6-882bc7698a22",
+          "url": "https://ipt.inbo.be/rss.do"
         },
         {
           "id": "b25aacb1-f9bb-4bb3-bbce-05b4d44077a4",
@@ -1342,6 +1342,14 @@
           "url": "https://ichthyology.specify.ku.edu/export/rss/"
         },
         {
+          "id": "8112d75b-7e78-4641-9e09-9a2cc7db7375",
+          "url": "https://ipt-obis.gbif.us/rss.do"
+        },
+        {
+          "id": "2ba26b79-d120-4c65-8a20-ad4c88637120",
+          "url": "https://ipt.floridamuseum.ufl.edu/ipt/rss.do"
+        },
+        {
           "id": "82a07ead-4a56-4e85-9331-d4c2743bfa3e",
           "url": "https://fisheye.specifycloud.org/export/rss/"
         },
@@ -1352,14 +1360,6 @@
         {
           "id": "11f7ef88-79a5-40eb-99ff-6c979044dcdb",
           "url": "http://ipt.nhm.ku.edu:8080/ipt/rss.do"
-        },
-        {
-          "id": "8112d75b-7e78-4641-9e09-9a2cc7db7375",
-          "url": "https://ipt-obis.gbif.us/rss.do"
-        },
-        {
-          "id": "2ba26b79-d120-4c65-8a20-ad4c88637120",
-          "url": "https://ipt.floridamuseum.ufl.edu/ipt/rss.do"
         },
         {
           "id": "efb15359-a72b-48dd-8195-065ea832bad5",
